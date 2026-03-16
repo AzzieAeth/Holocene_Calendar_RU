@@ -1,10 +1,10 @@
 {
   "id": "bhe",
-  "name": "Before Holocene Era",
+  "name": "До голоценовой эры",
   "color": "#c9a227",
   "categories": {
     "civilization": {
-      "name": "Civilizations & Eras",
+      "name": "Цивилизации и эпохи",
       "icon": "🏛️",
       "color": {
         "bg": "rgba(100, 149, 237, 0.3)",
@@ -13,7 +13,7 @@
       }
     },
     "war": {
-      "name": "Wars & Conflicts",
+      "name": "Войны и конфликты",
       "icon": "⚔️",
       "color": {
         "bg": "rgba(212, 68, 46, 0.3)",
@@ -22,7 +22,7 @@
       }
     },
     "politics": {
-      "name": "Political Events",
+      "name": "Политические события",
       "icon": "🏴",
       "color": {
         "bg": "rgba(138, 43, 226, 0.3)",
@@ -31,7 +31,7 @@
       }
     },
     "science": {
-      "name": "Science & Technology",
+      "name": "Наука и технологии",
       "icon": "🔬",
       "color": {
         "bg": "rgba(64, 224, 208, 0.3)",
@@ -40,7 +40,7 @@
       }
     },
     "culture": {
-      "name": "Culture & Art",
+      "name": "Культура и искусство",
       "icon": "🎭",
       "color": {
         "bg": "rgba(255, 105, 180, 0.3)",
@@ -49,7 +49,7 @@
       }
     },
     "figure": {
-      "name": "Historical Figures",
+      "name": "Исторические личности",
       "icon": "👤",
       "color": {
         "bg": "rgba(144, 238, 144, 0.3)",
@@ -58,7 +58,7 @@
       }
     },
     "disaster": {
-      "name": "Disasters & Plagues",
+      "name": "Бедствия и эпидемии",
       "icon": "💀",
       "color": {
         "bg": "rgba(210, 180, 140, 0.3)",
@@ -67,7 +67,7 @@
       }
     },
     "exploration": {
-      "name": "Exploration & Discovery",
+      "name": "Исследования и открытия",
       "icon": "🧭",
       "color": {
         "bg": "rgba(255, 220, 50, 0.3)",
@@ -76,7 +76,7 @@
       }
     },
     "economics": {
-      "name": "Trade & Economics",
+      "name": "Торговля и экономика",
       "icon": "💰",
       "color": {
         "bg": "rgba(221, 160, 221, 0.3)",
@@ -85,7 +85,7 @@
       }
     },
     "religion": {
-      "name": "Religion & Philosophy",
+      "name": "Религия и философия",
       "icon": "✝️",
       "color": {
         "bg": "rgba(255, 255, 255, 0.3)",
@@ -94,7 +94,7 @@
       }
     },
     "geological": {
-      "name": "Geological Events",
+      "name": "Геологические события",
       "icon": "🌋",
       "color": {
         "bg": "rgba(34, 139, 34, 0.3)",
@@ -107,8 +107,8 @@
     {
       "year": "c. 65000 BCE",
       "endYear": "c. 50000 BCE",
-      "title": "Peopling of Sahul (Australia)",
-      "desc": "Humans cross the Wallace Line to colonize Australia, New Guinea, and Tasmania—the earliest evidence of advanced maritime capability. Required open-ocean voyages and represents the oldest continuous culture on Earth. Archaeological and genetic dating differ by 15,000 years, an active scientific debate.",
+      "title": "Заселение Сахула (Австралия)",
+      "desc": "Люди пересекают линию Уоллеса и заселяют Австралию, Новую Гвинею и Тасманию, демонстрируя одни из самых ранних признаков развитого мореплавания. Для этого были нужны настоящие путешествия по открытому океану, а сами миграции стали началом древнейшей непрерывной культурной традиции на Земле. Археологические и генетические оценки расходятся примерно на 15 000 лет, и это до сих пор остается предметом научных споров.",
       "source": "https://en.wikipedia.org/wiki/Early_human_migrations#Sahul",
       "categories": [
         "exploration",

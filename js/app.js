@@ -324,7 +324,7 @@ class TimelineEntry {
 
         const yearLabel = formatYearDisplay(this.data);
         const sourceLink = this.data.source
-            ? `<a href="${this.data.source}" target="_blank" rel="noopener noreferrer" class="event-source" style="color: ${this.color.text}">Learn more →</a>`
+            ? `<a href="${this.data.source}" target="_blank" rel="noopener noreferrer" class="event-source" style="color: ${this.color.text}">Подробнее →</a>`
             : '';
         const categoryIcons = getCategoryIcons(this.data);
 
@@ -820,7 +820,7 @@ function formatYearDisplay(eventData) {
     // For ranges: start year gets no era suffix (unless eras differ), end year always gets suffix
     const formatStartInRange = () => {
         const num = formatNumberOnly(year);
-        const c = circa ? 'c. ' : '';
+        const c = circa ? 'ок. ' : '';
         // Only add era if it differs from end year's era
         if (!sameEra) {
             return `${c}${num} ${startIsBHE ? 'BHE' : 'HE'}`;
@@ -828,21 +828,21 @@ function formatYearDisplay(eventData) {
         return `${c}${num}`;
     };
     
-    const formatStart = () => circa ? `c. ${formatSingleYear(year)}` : formatSingleYear(year);
-    const formatEnd = () => endCirca ? `c. ${formatSingleYear(endYear)}` : formatSingleYear(endYear);
+    const formatStart = () => circa ? `ок. ${formatSingleYear(year)}` : formatSingleYear(year);
+    const formatEnd = () => endCirca ? `ок. ${formatSingleYear(endYear)}` : formatSingleYear(endYear);
     
     switch (type) {
         case 'person':
             if (endYear) {
-                return `b. ${formatStartInRange()} – d. ${formatEnd()}`;
+                return `р. ${formatStartInRange()} – ум. ${formatEnd()}`;
             }
-            return `b. ${formatStart()}`;
+            return `р. ${formatStart()}`;
         
         case 'approximate':
             if (endYear) {
-                return `Between ${formatStartInRange()} – ${formatEnd()}`;
+                return `Между ${formatStartInRange()} – ${formatEnd()}`;
             }
-            return `c. ${formatSingleYear(year)}`; // Always show c. for single approximate
+            return `ок. ${formatSingleYear(year)}`; // Always show circa for single approximate
         
         case 'range':
             if (endYear) {
@@ -1468,7 +1468,7 @@ function createRangeBar(rangeData, index, maxDuration) {
     
     // Build source link if available
     const sourceLink = rangeData.source 
-        ? `<a href="${rangeData.source}" target="_blank" rel="noopener noreferrer" class="event-source" style="color: ${color.text}">Learn more →</a>`
+        ? `<a href="${rangeData.source}" target="_blank" rel="noopener noreferrer" class="event-source" style="color: ${color.text}">Подробнее →</a>`
         : '';
     
     // Get category icons
@@ -1590,7 +1590,7 @@ function createEvent(eventData, index) {
     
     // Build source link if available
     const sourceLink = eventData.source 
-        ? `<a href="${eventData.source}" target="_blank" rel="noopener noreferrer" class="event-source" style="color: ${textColor}">Learn more →</a>`
+        ? `<a href="${eventData.source}" target="_blank" rel="noopener noreferrer" class="event-source" style="color: ${textColor}">Подробнее →</a>`
         : '';
     
     // Get category icons
@@ -2342,7 +2342,7 @@ function renderTimeline() {
     // Update scale display
     const scaleDisplay = document.getElementById('scaleDisplay');
     if (scaleDisplay) {
-        scaleDisplay.textContent = `100 years = ${Math.round(CONFIG.pxPerYear * 100)} pixels`;
+        scaleDisplay.textContent = `100 лет = ${Math.round(CONFIG.pxPerYear * 100)} пикселей`;
     }
     
     // Update scale slider
@@ -2353,7 +2353,7 @@ function renderTimeline() {
     
     const scaleValue = document.getElementById('scaleValue');
     if (scaleValue) {
-        scaleValue.textContent = `${CONFIG.pxPerYear}px/yr`;
+        scaleValue.textContent = `${CONFIG.pxPerYear}px/год`;
     }
     
     const scaleInput = document.getElementById('scaleInput');

@@ -1,19 +1,19 @@
 {
   "id": "core",
-  "name": "Core Historical Events",
+  "name": "Основные исторические события",
   "color": "#c9a227",
   "categories": {
     "calendar": {
-      "name": "Calendar Events",
+      "name": "Календарные события",
       "icon": "📅",
       "color": {
-        "bg":"rgba(201, 162, 39, 0.3)",
-        "border":"#c9a227",
-        "text":"#8a7019"
+        "bg": "rgba(201, 162, 39, 0.3)",
+        "border": "#c9a227",
+        "text": "#8a7019"
       }
     },
     "civilization": {
-      "name": "Civilizations & Eras",
+      "name": "Цивилизации и эпохи",
       "icon": "🏛️",
       "color": {
         "bg": "rgba(100, 149, 237, 0.3)",
@@ -22,7 +22,7 @@
       }
     },
     "war": {
-      "name": "Wars & Conflicts",
+      "name": "Войны и конфликты",
       "icon": "⚔️",
       "color": {
         "bg": "rgba(212, 68, 46, 0.3)",
@@ -31,7 +31,7 @@
       }
     },
     "politics": {
-      "name": "Political Events",
+      "name": "Политические события",
       "icon": "🏴",
       "color": {
         "bg": "rgba(138, 43, 226, 0.3)",
@@ -40,7 +40,7 @@
       }
     },
     "science": {
-      "name": "Science & Technology",
+      "name": "Наука и технологии",
       "icon": "🔬",
       "color": {
         "bg": "rgba(64, 224, 208, 0.3)",
@@ -49,7 +49,7 @@
       }
     },
     "culture": {
-      "name": "Culture & Art",
+      "name": "Культура и искусство",
       "icon": "🎭",
       "color": {
         "bg": "rgba(255, 105, 180, 0.3)",
@@ -58,7 +58,7 @@
       }
     },
     "figure": {
-      "name": "Historical Figures",
+      "name": "Исторические личности",
       "icon": "👤",
       "color": {
         "bg": "rgba(144, 238, 144, 0.3)",
@@ -67,7 +67,7 @@
       }
     },
     "disaster": {
-      "name": "Disasters & Plagues",
+      "name": "Бедствия и эпидемии",
       "icon": "💀",
       "color": {
         "bg": "rgba(210, 180, 140, 0.3)",
@@ -76,7 +76,7 @@
       }
     },
     "exploration": {
-      "name": "Exploration & Discovery",
+      "name": "Исследования и открытия",
       "icon": "🧭",
       "color": {
         "bg": "rgba(255, 220, 50, 0.3)",
@@ -85,7 +85,7 @@
       }
     },
     "economics": {
-      "name": "Trade & Economics",
+      "name": "Торговля и экономика",
       "icon": "💰",
       "color": {
         "bg": "rgba(221, 160, 221, 0.3)",
@@ -94,7 +94,7 @@
       }
     },
     "religion": {
-      "name": "Religion & Philosophy",
+      "name": "Религия и философия",
       "icon": "✝️",
       "color": {
         "bg": "rgba(255, 255, 255, 0.3)",
@@ -103,7 +103,7 @@
       }
     },
     "geological": {
-      "name": "Geological Events",
+      "name": "Геологические события",
       "icon": "🌋",
       "color": {
         "bg": "rgba(34, 139, 34, 0.3)",
@@ -116,8 +116,8 @@
     {
       "year": "c. 3300000 BCE",
       "endYear": "c. 3300 BCE",
-      "title": "Stone Age",
-      "desc": "Lasting for over 3 million years, the Stone Age began with the first stone tools and ended at different times regionally with the adoption of metallurgy. The vast majority occurred before the Holocene Era.",
+      "title": "Каменный век",
+      "desc": "Каменный век длился более 3 миллионов лет: он начался с появления первых каменных орудий и в разных регионах завершился с распространением металлургии. Почти весь этот период пришелся на время до голоценовой эры.",
       "source": "https://en.wikipedia.org/wiki/Stone_Age",
       "categories": [
         "science",
@@ -130,8 +130,8 @@
     {
       "year": "46 BCE",
       "endYear": "1582 BCE",
-      "title": "Julian Calendar Begins on Jan 1, 9955 HE",
-      "desc": "Julius Caesar introduced the Julian Calendar, which aligned the civil year closely to the astronomical year. Each year had 365 days, and an extra day was added every 4 years to make up for the six-hour difference between the civil and the solar year.\nThe last day of the Julian calendar was Thursday, Oct 4, 11,582 HE, with the new Gregorian calendar beginning on Friday, Oct 15, 11,582.",
+      "title": "Введение юлианского календаря",
+      "desc": "Юлий Цезарь ввел юлианский календарь, приблизив гражданский год к астрономическому. В обычном году было 365 дней, а раз в четыре года добавлялся дополнительный день, чтобы компенсировать разницу между календарным и солнечным годом.\nПоследним днем юлианского календаря стал четверг, 4 октября 11 582 HE; уже в пятницу, 15 октября 11 582 HE, начал действовать новый, григорианский календарь.",
       "source": "https://www.walksinrome.com/blog/october-4th-1582-last-day-of-the-julian-calendar",
       "categories": [
         "calendar",
@@ -143,8 +143,8 @@
     {
       "year": "1582 CE",
       "endYear": "1993 CE",
-      "title": "Gregorian Calendar Begins on Oct 15, 11,582 HE, skipping 10 days",
-      "desc": "Pope Gregory XIII introduced the Gregorian calendar to replace the Julian calendar, because the calendar had drifted 10 days from the original intended dates. The Julian calendar ended on Thursday, Oct 4, 11,582 with the Gregorian calendar going into effect on Friday, Oct 15, 11,582, skipping 10 days.",
+      "title": "Введение григорианского календаря",
+      "desc": "Папа Григорий XIII ввел григорианский календарь взамен юлианского, который к тому времени сместился на 10 дней относительно первоначального расчета. Юлианский календарь завершился в четверг, 4 октября 11 582 HE, а уже в пятницу, 15 октября 11 582 HE, вступил в силу григорианский, сразу пропустив 10 дней.",
       "source": "https://en.wikipedia.org/wiki/Gregorian_calendar#:~:text=It%20went%20into%20effect%20in%20October%201582",
       "categories": [
         "calendar",
@@ -155,8 +155,8 @@
     },
     {
       "year": "c. 9700 BCE",
-      "title": "Holocene Epoch Begins",
-      "desc": "The geological epoch marking the end of the last Ice Age and the start of the current warm interval. Begins approximately 11,700 years before present and coincides with major human transitions to sedentism and agriculture.",
+      "title": "Начало голоцена",
+      "desc": "Геологическая эпоха, ознаменовавшая конец последнего ледникового периода и начало нынешнего теплого интервала. Она началась примерно 11 700 лет назад и совпала с важнейшим переходом человечества к оседлому образу жизни и земледелию.",
       "source": "https://www.britannica.com/science/Holocene-Epoch",
       "categories": [
         "geological",
@@ -166,8 +166,8 @@
     },
     {
       "year": "c. 10000 BCE",
-      "title": "Neolithic Revolution Begins",
-      "desc": "End of the Ice Age. Humans transition to agriculture, domesticate animals, and settle permanently in the Fertile Crescent.",
+      "title": "Неолитическая революция",
+      "desc": "После окончания ледникового периода люди переходят к земледелию, одомашнивают животных и начинают вести оседлый образ жизни в Плодородном полумесяце.",
       "source": "https://en.wikipedia.org/wiki/Neolithic_Revolution",
       "categories": [
         "civilization",
@@ -178,8 +178,8 @@
     {
       "year": "c. 11000 BCE",
       "endYear": "c. 8000 BCE",
-      "title": "Domestication of Sheep",
-      "desc": "Sheep become among the earliest domesticated livestock animals in Mesopotamia, used for meat, milk, and later wool.",
+      "title": "Одомашнивание овец",
+      "desc": "Овцы стали одними из первых одомашненных животных в Месопотамии: их разводили ради мяса, молока, а позднее и шерсти.",
       "source": "https://en.wikipedia.org/wiki/Domestic_sheep",
       "categories": [
         "science",
@@ -190,8 +190,8 @@
     {
       "year": "c. 9500 BCE",
       "endYear": "c. 8000 BCE",
-      "title": "Göbekli Tepe",
-      "desc": "Massive stone temple complex built in modern Turkey—predating pottery, metallurgy, and the wheel. The world's oldest known temple.",
+      "title": "Гёбекли-Тепе",
+      "desc": "Огромный каменный храмовый комплекс на территории современной Турции, возникший еще до появления керамики, металлургии и колеса. Считается древнейшим из известных храмов в мире.",
       "source": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
       "categories": [
         "civilization",
@@ -202,8 +202,8 @@
     },
     {
       "year": "c. 9500 BCE",
-      "title": "First Cereal Cultivation",
-      "desc": "Wild wheat and barley are first cultivated in the Fertile Crescent. They may initially have been used for gruel or fermented beverages before widespread bread production.",
+      "title": "Первое выращивание зерновых",
+      "desc": "В Плодородном полумесяце начинают выращивать дикую пшеницу и ячмень. Вероятно, сначала их использовали для каш и ферментированных напитков, а уже затем для массового производства хлеба.",
       "source": "https://en.wikipedia.org/wiki/Neolithic_founder_crops",
       "categories": [
         "science",
@@ -214,8 +214,8 @@
     {
       "year": "c. 8500 BCE",
       "endYear": "c. 8000 BCE",
-      "title": "Domestication of Pigs",
-      "desc": "Pigs domesticated independently in Anatolia and China. Efficient converters of scraps to protein.",
+      "title": "Одомашнивание свиней",
+      "desc": "Свиней независимо одомашнили в Анатолии и Китае. Они оказались удобным источником пищи, эффективно превращая пищевые отходы в белок.",
       "source": "https://en.wikipedia.org/wiki/Domestic_pig",
       "categories": [
         "science",
@@ -225,8 +225,8 @@
     },
     {
       "year": "c. 9000 BCE",
-      "title": "Jericho Settlement",
-      "desc": "One of humanity's first permanent settlements builds defensive walls and a tower.",
+      "title": "Иерихон",
+      "desc": "Одно из первых постоянных поселений в истории человечества, где появились оборонительные стены и башня.",
       "source": "https://en.wikipedia.org/wiki/Jericho",
       "categories": [
         "civilization"
@@ -236,8 +236,8 @@
     {
       "year": "c. 10000 BCE",
       "endYear": "c. 8000 BCE",
-      "title": "Domestication of Cattle",
-      "desc": "Aurochs domesticated in the Near East and South Asia. Cattle provide meat, milk, leather, and labor.",
+      "title": "Одомашнивание крупного рогатого скота",
+      "desc": "Туров одомашнили на Ближнем Востоке и в Южной Азии. Получившийся домашний скот давал людям мясо, молоко, кожу и тягловую силу.",
       "source": "https://en.wikipedia.org/wiki/Cattle",
       "categories": [
         "science",
@@ -248,8 +248,8 @@
     {
       "year": "c. 6200 BCE",
       "endYear": "c. 5800 BCE",
-      "title": "8.2 Kiloyear Event",
-      "desc": "Most severe climate event of the Holocene. Sudden cooling occurred approximately 8,200 years ago (around 3800 HE), likely caused by the catastrophic drainage of glacial Lake Agassiz into the North Atlantic.",
+      "title": "Климатическое событие 8,2 тыс. лет назад",
+      "desc": "Самое резкое климатическое похолодание голоцена. Оно произошло около 8200 лет назад, примерно в 3800 HE, вероятно из-за катастрофического стока ледникового озера Агассис в Северную Атлантику.",
       "source": "https://en.wikipedia.org/wiki/8.2-kiloyear_event",
       "categories": [
         "geological",
@@ -259,8 +259,8 @@
     },
     {
       "year": "c. 8000 BCE",
-      "title": "Pottery Invented (and earlier regional origins)",
-      "desc": "Fired clay pottery emerges independently in multiple regions. While pottery becomes widespread in the Near East after c. 2000 HE, the earliest known pottery fragments have been found in East Asia (Xianrendong, China) with contexts dated to roughly 19,000–20,000 years before present.",
+      "title": "Появление керамики",
+      "desc": "Обожженная глиняная керамика независимо возникает в разных регионах мира. На Ближнем Востоке она широко распространяется после примерно 2000 HE, но самые ранние известные фрагменты найдены в Восточной Азии, в Сяньжэньдуне в Китае, и датируются примерно 19 000-20 000 лет назад.",
       "source": "https://en.wikipedia.org/wiki/Pottery",
       "categories": [
         "science",
@@ -271,8 +271,8 @@
     {
       "year": "c. 7500 BCE",
       "endYear": "c. 5700 BCE",
-      "title": "Çatalhöyük",
-      "desc": "One of the world's first proto-cities in Anatolia. Up to 10,000 residents live in densely packed mudbrick houses entered through rooftop holes.",
+      "title": "Чатал-Хююк",
+      "desc": "Один из первых протогородов мира в Анатолии. До 10 000 жителей жили здесь в тесно стоящих домах из сырцового кирпича, вход в которые часто вел через отверстия в крышах.",
       "source": "https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk",
       "categories": [
         "civilization"
@@ -281,8 +281,8 @@
     },
     {
       "year": "c. 7200 BCE",
-      "title": "'Ain Ghazal Settlement",
-      "desc": "One of the largest Neolithic settlements, near modern Amman, Jordan. Famous for its plaster statues and ancestor worship practices.",
+      "title": "Айн-Газаль",
+      "desc": "Одно из крупнейших неолитических поселений неподалеку от современного Аммана в Иордании. Особенно известно своими гипсовыми статуями и практиками почитания предков.",
       "source": "https://en.wikipedia.org/wiki/%27Ain_Ghazal",
       "categories": [
         "civilization",
@@ -292,8 +292,8 @@
     },
     {
       "year": "c. 3500 BCE",
-      "title": "Wheel Invented",
-      "desc": "The earliest archaeological evidence of wheeled vehicles and potter's wheels appears in Mesopotamia, revolutionizing transportation and manufacturing.",
+      "title": "Изобретение колеса",
+      "desc": "Первые археологические свидетельства колесного транспорта и гончарного круга относятся к Месопотамии. Колесо стало одним из важнейших изобретений в истории транспорта и ремесла.",
       "source": "https://en.wikipedia.org/wiki/Wheel",
       "categories": [
         "science"
@@ -302,8 +302,8 @@
     },
     {
       "year": "c. 5500 BCE",
-      "title": "Copper Smelting Begins",
-      "desc": "Humans learn to extract copper from ore using fire. The Chalcolithic (Copper Age) begins, ending the Stone Age.",
+      "title": "Начало выплавки меди",
+      "desc": "Люди научились выплавлять медь из руды с помощью огня. Так начался энеолит, или медный век, ознаменовавший закат каменного века.",
       "source": "https://en.wikipedia.org/wiki/Chalcolithic",
       "categories": [
         "science",
@@ -314,8 +314,8 @@
     {
       "year": "c. 4000 BCE",
       "endYear": "c. 500 CE",
-      "title": "Bantu Expansion",
-      "desc": "The most significant demographic event in African prehistory. Bantu-speaking peoples spread from West Africa (modern Nigeria/Cameroon) across sub-Saharan Africa, carrying agriculture and later iron-working. By 10500 HE they reached South Africa, transforming the continent's linguistic and genetic landscape.",
+      "title": "Расширение банту",
+      "desc": "Одно из важнейших демографических событий в доисторической Африке. Народы банту распространились из Западной Африки, с территории современных Нигерии и Камеруна, по всей Африке к югу от Сахары, неся с собой земледелие, а позднее и обработку железа. К 10500 HE они достигли Южной Африки, изменив языковой и генетический ландшафт континента.",
       "source": "https://en.wikipedia.org/wiki/Bantu_expansion",
       "categories": [
         "civilization",
@@ -325,8 +325,8 @@
     },
     {
       "year": "c. 2200 BCE",
-      "title": "4.2 Kiloyear Event",
-      "desc": "Severe aridification event occurring approximately 4,200 years ago (around 7800 HE). Contributed to the collapse of the Egyptian Old Kingdom and the Akkadian Empire.",
+      "title": "Климатическое событие 4,2 тыс. лет назад",
+      "desc": "Сильное засушливое событие произошло около 4200 лет назад, примерно в 7800 HE. Оно сыграло важную роль в упадке Древнего Египта и Аккадской державы.",
       "source": "https://en.wikipedia.org/wiki/4.2-kiloyear_event",
       "categories": [
         "geological",
@@ -337,8 +337,8 @@
     {
       "year": "c. 4000 BCE",
       "endYear": "c. 2000 BCE",
-      "title": "Domestication of the Horse",
-      "desc": "Horses are first managed on the Eurasian steppes. Early Botai horses (~6500 HE) differ genetically from later domestic lineages that spread widely after ~7800 HE, revolutionizing transportation, warfare, and communication.",
+      "title": "Одомашнивание лошади",
+      "desc": "Лошадей впервые начали разводить в евразийских степях. Ранние ботайские лошади, около 6500 HE, генетически отличались от более поздних домашних линий, которые широко распространились после примерно 7800 HE и изменили транспорт, военное дело и связь.",
       "source": "https://en.wikipedia.org/wiki/Domestication_of_the_horse",
       "categories": [
         "science"
@@ -348,8 +348,8 @@
     {
       "year": "c. 3300 BCE",
       "endYear": "c. 1200 BCE",
-      "title": "Bronze Age",
-      "desc": "Copper-tin alloy creates bronze—harder than copper alone. Weapons, tools, and trade networks transform society.",
+      "title": "Бронзовый век",
+      "desc": "Сплав медь-олово создает бронзу — более твердую, чем сама медь. Оружие, инструменты и торговые сети преобразуют общество.",
       "source": "https://en.wikipedia.org/wiki/Bronze_Age",
       "categories": [
         "science",
@@ -362,8 +362,8 @@
     {
       "year": "c. 3300 BCE",
       "endYear": "c. 1300 BCE",
-      "title": "Indus Valley Civilization",
-      "desc": "One of the three cradles of civilization. Harappa and Mohenjo-daro featured advanced urban planning, standardized weights, and sophisticated drainage systems.",
+      "title": "Цивилизация долины Инда",
+      "desc": "Одна из трёх колыбелей цивилизации. Хараппа и Мохенджо-Даро отличались передовой городской планировкой, стандартизированным весом и сложной дренажной системой.",
       "source": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
       "categories": [
         "civilization"
@@ -372,8 +372,8 @@
     },
     {
       "year": "c. 3200 BCE",
-      "title": "Newgrange",
-      "desc": "Massive prehistoric monument built in Ireland. The passage tomb is older than Stonehenge and the Egyptian pyramids, aligned to the winter solstice sunrise.",
+      "title": "Ньюгрейндж",
+      "desc": "Массивный доисторический памятник, построенный в Ирландии. Гробница-проход старше Стоунхенджа и египетских пирамид и расположена в соответствии с восходом солнца в день зимнего солнцестояния.",
       "source": "https://en.wikipedia.org/wiki/Newgrange",
       "categories": [
         "civilization",
@@ -384,8 +384,8 @@
     },
     {
       "year": "c. 3000 BCE",
-      "title": "Stonehenge",
-      "desc": "Iconic prehistoric monument built on Salisbury Plain, England. Purpose debated—likely astronomical observatory and ceremonial site.",
+      "title": "Стоунхендж",
+      "desc": "Знаменитый доисторический памятник, построенный на равнине Солсбери, Англия. Цель обсуждается - вероятно, астрономическая обсерватория и церемониальное место.",
       "source": "https://en.wikipedia.org/wiki/Stonehenge",
       "categories": [
         "civilization",
@@ -396,8 +396,8 @@
     },
     {
       "year": "c. 3500 BCE",
-      "title": "First Cities in Mesopotamia",
-      "desc": "Uruk, Ur, and Eridu emerge in southern Iraq. Urban planning, specialized labor, and social hierarchy develop.",
+      "title": "Первые города в Месопотамии",
+      "desc": "Урук, Ур и Эриду возникают на юге Ирака. Развиваются городское планирование, специализированный труд и социальная иерархия.",
       "source": "https://en.wikipedia.org/wiki/Uruk",
       "categories": [
         "civilization"
@@ -407,8 +407,8 @@
     {
       "year": "c. 3500 BCE",
       "endYear": "c. 1800 BCE",
-      "title": "Caral-Supe Civilization",
-      "desc": "The oldest civilization in the Americas, flourishing in coastal Peru. Achieved monumental architecture and urban complexity without pottery or grain agriculture, relying on maritime resources and cotton trade. Developed quipu record-keeping 4,000 years before the Inca.",
+      "title": "Цивилизация Карал-Супе",
+      "desc": "Старейшая цивилизация Америки, процветающая в прибрежном Перу. Достижение монументальной архитектуры и сложности городов без гончарного дела и зернового земледелия, опираясь на морские ресурсы и торговлю хлопком. Ведение учета кипу было разработано за 4000 лет до появления инков.",
       "source": "https://en.wikipedia.org/wiki/Caral",
       "categories": [
         "civilization",
@@ -418,8 +418,8 @@
     },
     {
       "year": "c. 3300 BCE",
-      "title": "Invention of Writing",
-      "desc": "Cuneiform in Sumer, hieroglyphs in Egypt. History begins—everything before is \"prehistory.\"",
+      "title": "Изобретение письменности",
+      "desc": "Клинопись в Шумере, иероглифы в Египте. История начинается – все, что было до нее, является «предысторией».",
       "source": "https://en.wikipedia.org/wiki/History_of_writing",
       "categories": [
         "science",
@@ -431,8 +431,8 @@
     {
       "year": "c. 3150 BCE",
       "endYear": "332 BCE",
-      "title": "Ancient Egypt",
-      "desc": "One of the longest-lasting civilizations. Pyramids, hieroglyphs, pharaohs, and the Nile defined 3,000 years of history.",
+      "title": "Древний Египет",
+      "desc": "Одна из древнейших цивилизаций. Пирамиды, иероглифы, фараоны и Нил определили 3000-летнюю историю.",
       "source": "https://en.wikipedia.org/wiki/Ancient_Egypt",
       "categories": [
         "civilization"
@@ -442,8 +442,8 @@
     {
       "year": "c. 2600 BCE",
       "endYear": "c. 1100 BCE",
-      "title": "Minoan Civilization",
-      "desc": "Bronze Age civilization on Crete and other Aegean islands. Built elaborate palaces at Knossos, developed Linear A script, and influenced Greek mythology.",
+      "title": "Минойская цивилизация",
+      "desc": "Цивилизация бронзового века на Крите и других островах Эгейского моря. Построил сложные дворцы в Кноссе, разработал линейное письмо А и оказал влияние на греческую мифологию.",
       "source": "https://en.wikipedia.org/wiki/Minoan_civilization",
       "categories": [
         "civilization",
@@ -454,8 +454,8 @@
     {
       "year": "c. 2580 BCE",
       "endYear": "c. 2560 BCE",
-      "title": "Great Pyramid of Giza",
-      "desc": "Built for Pharaoh Khufu. Tallest structure on Earth for 3,800 years.",
+      "title": "Великая пирамида Гизы",
+      "desc": "Построен для фараона Хуфу. Самое высокое сооружение на Земле за 3800 лет.",
       "source": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
       "categories": [
         "civilization",
@@ -466,8 +466,8 @@
     {
       "year": "c. 2000 BCE",
       "endYear": "c. 250 CE",
-      "title": "Maya Preclassic Period",
-      "desc": "Maya civilization emerges in Mesoamerica. First cities, monumental architecture, and hieroglyphic writing develop.",
+      "title": "Доклассический период майя",
+      "desc": "Цивилизация майя возникает в Мезоамерике. Развиваются первые города, монументальная архитектура, иероглифическая письменность.",
       "source": "https://en.wikipedia.org/wiki/Preclassic_Maya",
       "categories": [
         "civilization"
@@ -476,8 +476,8 @@
     },
     {
       "year": "c. 2000 BCE",
-      "title": "Abraham",
-      "desc": "Traditional date for the patriarch Abraham, father of Judaism, Christianity, and Islam.",
+      "title": "Авраам",
+      "desc": "Традиционная дата патриарха Авраама, отца иудаизма, христианства и ислама.",
       "source": "https://en.wikipedia.org/wiki/Abraham",
       "categories": [
         "religion",
@@ -488,8 +488,8 @@
     {
       "year": "c. 1792 BCE",
       "endYear": "c. 1750 BCE",
-      "title": "Code of Hammurabi",
-      "desc": "One of the oldest deciphered legal codes. \"An eye for an eye\" enters human thought.",
+      "title": "Кодекс Хаммурапи",
+      "desc": "Один из старейших расшифрованных юридических кодексов. «Око за око» приходит в голову человека.",
       "source": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
       "categories": [
         "politics",
@@ -499,8 +499,8 @@
     },
     {
       "year": "c. 1500 BCE",
-      "title": "Moses and the Exodus",
-      "desc": "Traditional date for Moses leading the Israelites out of Egypt. The Ten Commandments given.",
+      "title": "Моисей и Исход",
+      "desc": "Традиционная дата, когда Моисей выводит израильтян из Египта. Даны Десять Заповедей.",
       "source": "https://en.wikipedia.org/wiki/Moses",
       "categories": [
         "religion",
@@ -511,8 +511,8 @@
     {
       "year": "c. 1200 BCE",
       "endYear": "c. 550 BCE",
-      "title": "Iron Age (Near East)",
-      "desc": "Iron replaces bronze as the dominant metal in the Near East and Mediterranean. New weapons and tools enable larger empires and transform warfare. Transitions into Classical Antiquity; in Northern Europe, the Iron Age continues until c. 10800 HE.",
+      "title": "Железный век (Ближний Восток)",
+      "desc": "Железо заменяет бронзу в качестве доминирующего металла на Ближнем Востоке и в Средиземноморье. Новое оружие и инструменты позволяют создавать более крупные империи и трансформировать войну. Переходы в классическую древность; в Северной Европе железный век продолжается до ок. 10800 ХЭ.",
       "source": "https://en.wikipedia.org/wiki/Iron_Age",
       "categories": [
         "science",
@@ -525,8 +525,8 @@
     {
       "year": "c. 800 BCE",
       "endYear": "476 CE",
-      "title": "Classical Antiquity",
-      "desc": "Era of ancient Greece and Rome. Philosophy, democracy, republican government, and classical art flourish. Ends with the fall of the Western Roman Empire.",
+      "title": "Классическая античность",
+      "desc": "Эпоха Древней Греции и Рима. Процветают философия, демократия, республиканское правительство и классическое искусство. Заканчивается падением Западной Римской империи.",
       "source": "https://en.wikipedia.org/wiki/Classical_antiquity",
       "categories": [
         "civilization",
@@ -538,8 +538,8 @@
     },
     {
       "year": "c. 1000 BCE",
-      "title": "King David",
-      "desc": "David becomes King of Israel, uniting the tribes. Jerusalem becomes the capital.",
+      "title": "Царь Давид",
+      "desc": "Давид становится царем Израиля, объединяя племена. Иерусалим становится столицей.",
       "source": "https://en.wikipedia.org/wiki/David",
       "categories": [
         "religion",
@@ -551,8 +551,8 @@
     {
       "year": "c. 1000 BCE",
       "endYear": "c. 1200 CE",
-      "title": "Polynesian Expansion",
-      "desc": "Humanity's greatest feat of open-ocean navigation. Polynesian voyagers settle Hawaii, Easter Island, and New Zealand across thousands of miles of Pacific using stars, currents, and wave patterns.",
+      "title": "Полинезийская экспансия",
+      "desc": "Величайший подвиг человечества в мореплавании в открытом океане. Полинезийские путешественники заселили Гавайи, остров Пасхи и Новую Зеландию на тысячи миль Тихого океана, используя звезды, течения и волновые узоры.",
       "source": "https://en.wikipedia.org/wiki/Polynesian_navigation",
       "categories": [
         "exploration",
@@ -562,8 +562,8 @@
     },
     {
       "year": "c. 960 BCE",
-      "title": "Solomon's Temple Built",
-      "desc": "King Solomon completes the First Temple in Jerusalem, the holiest site in Judaism.",
+      "title": "Построен храм Соломона",
+      "desc": "Царь Соломон завершает строительство Первого Храма в Иерусалиме, самого святого места в иудаизме.",
       "source": "https://en.wikipedia.org/wiki/Solomon%27s_Temple",
       "categories": [
         "religion",
@@ -574,8 +574,8 @@
     {
       "year": "c. 911 BCE",
       "endYear": "609 BCE",
-      "title": "Neo-Assyrian Empire",
-      "desc": "A powerful imperial state dominating the Near East, noted for its military organization, administration, and imperial scale.",
+      "title": "Неоассирийская империя",
+      "desc": "Мощное имперское государство, доминирующее на Ближнем Востоке, известное своей военной организацией, управлением и имперским масштабом.",
       "source": "https://en.wikipedia.org/wiki/Neo-Assyrian_Empire",
       "categories": [
         "civilization",
@@ -585,8 +585,8 @@
     },
     {
       "year": "c. 508 BCE",
-      "title": "Athenian Democracy Emerges",
-      "desc": "Reforms of Cleisthenes establish one of the earliest known large-scale democratic systems, influencing later political thought, philosophy, and civic life.",
+      "title": "Возникает афинская демократия",
+      "desc": "Реформы Клисфена установили одну из самых ранних известных крупномасштабных демократических систем, повлиявшую на более позднюю политическую мысль, философию и гражданскую жизнь.",
       "source": "https://en.wikipedia.org/wiki/Athenian_democracy",
       "categories": [
         "politics",
@@ -598,8 +598,8 @@
     {
       "year": "c. 800 BCE",
       "endYear": "c. 200 BCE",
-      "title": "Axial Age",
-      "desc": "Parallel intellectual revolutions across Eurasia give rise to transformative moral and religious traditions. Confucianism and Taoism in China, Buddhism and Jainism in India, Zoroastrianism in Persia, and Greek philosophy in the Mediterranean. These traditions emphasize universal ethics and reshape worldviews across civilizations.",
+      "title": "Осевой возраст",
+      "desc": "Параллельные интеллектуальные революции по всей Евразии порождают преобразующие моральные и религиозные традиции. Конфуцианство и даосизм в Китае, буддизм и джайнизм в Индии, зороастризм в Персии и греческая философия в Средиземноморье. Эти традиции подчеркивают универсальную этику и меняют мировоззрение разных цивилизаций.",
       "source": "https://en.wikipedia.org/wiki/Axial_Age",
       "categories": [
         "culture",
@@ -609,8 +609,8 @@
     },
     {
       "year": "c. 776 BCE",
-      "title": "First Olympic Games",
-      "desc": "Traditional date for the first Olympic Games at Olympia, Greece. Athletic competition becomes sacred.",
+      "title": "Первые Олимпийские игры",
+      "desc": "Традиционная дата первых Олимпийских игр в Олимпии, Греция. Спортивные соревнования становятся священными.",
       "source": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
       "categories": [
         "culture"
@@ -619,8 +619,8 @@
     },
     {
       "year": "c. 753 BCE",
-      "title": "Founding of Rome",
-      "desc": "Traditional date for the founding of Rome by Romulus. A small village destined to rule the world.",
+      "title": "Основание Рима",
+      "desc": "Традиционная дата основания Рима Ромулом. Маленькая деревня, которой суждено править миром.",
       "source": "https://en.wikipedia.org/wiki/Founding_of_Rome",
       "categories": [
         "civilization"
@@ -630,8 +630,8 @@
     {
       "year": "c. 563 BCE",
       "endYear": "c. 483 BCE",
-      "title": "Buddha (Siddhartha Gautama)",
-      "desc": "Founder of Buddhism born in Lumbini, Nepal. His teachings on suffering and enlightenment spread across Asia.",
+      "title": "Будда (Сиддхартха Гаутама)",
+      "desc": "Основатель буддизма родился в Лумбини, Непал. Его учение о страданиях и просветлении распространилось по всей Азии.",
       "source": "https://en.wikipedia.org/wiki/Gautama_Buddha",
       "categories": [
         "religion",
@@ -642,8 +642,8 @@
     {
       "year": "c. 551 BCE",
       "endYear": "479 BCE",
-      "title": "Confucius",
-      "desc": "Kong Qiu born in Lu, China. His teachings will shape Chinese civilization for millennia.",
+      "title": "Конфуций",
+      "desc": "Конг Цю родился в Лу, Китай. Его учение будет формировать китайскую цивилизацию на протяжении тысячелетий.",
       "source": "https://en.wikipedia.org/wiki/Confucius",
       "categories": [
         "religion",
@@ -654,8 +654,8 @@
     },
     {
       "year": "509 BCE",
-      "title": "Roman Republic Founded",
-      "desc": "Rome overthrows its kings. The Republic will shape governance for millennia.",
+      "title": "Основана Римская республика",
+      "desc": "Рим свергает своих царей. Республика будет формировать управление на протяжении тысячелетий.",
       "source": "https://en.wikipedia.org/wiki/Roman_Republic",
       "categories": [
         "politics",
@@ -665,8 +665,8 @@
     },
     {
       "year": "490 BCE",
-      "title": "Battle of Marathon",
-      "desc": "Athens defeats Persian invasion. The runner Pheidippides inspires the modern marathon.",
+      "title": "Битва при Марафоне",
+      "desc": "Афины отбивают персидское вторжение. Бегун Фидиппид вдохновляет современный марафон.",
       "source": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
       "categories": [
         "war"
@@ -676,8 +676,8 @@
     {
       "year": "c. 470 BCE",
       "endYear": "399 BCE",
-      "title": "Socrates",
-      "desc": "The father of Western philosophy born in Athens. Will teach Plato and die for his beliefs.",
+      "title": "Сократ",
+      "desc": "Отец западной философии родился в Афинах. Научит Платона и умрет за свои убеждения.",
       "source": "https://en.wikipedia.org/wiki/Socrates",
       "categories": [
         "figure",
@@ -688,8 +688,8 @@
     },
     {
       "year": "438 BCE",
-      "title": "Parthenon Completed",
-      "desc": "Athens completes the Parthenon, temple to Athena. Peak of Classical Greek architecture.",
+      "title": "Парфенон завершен",
+      "desc": "Афины завершают строительство Парфенона, храма Афины. Пик классической греческой архитектуры.",
       "source": "https://en.wikipedia.org/wiki/Parthenon",
       "categories": [
         "culture",
@@ -699,8 +699,8 @@
     },
     {
       "year": "399 BCE",
-      "title": "Trial of Socrates",
-      "desc": "Socrates drinks hemlock after being condemned for corrupting Athens' youth. Philosophy's first martyr.",
+      "title": "Суд над Сократом",
+      "desc": "Сократ пьет болиголов после того, как его осудили за развращение афинской молодежи. Первый мученик философии.",
       "source": "https://en.wikipedia.org/wiki/Trial_of_Socrates",
       "categories": [
         "figure",
@@ -711,8 +711,8 @@
     {
       "year": "384 BCE",
       "endYear": "322 BCE",
-      "title": "Aristotle",
-      "desc": "The polymath who will tutor Alexander the Great and systematize Western knowledge.",
+      "title": "Аристотель",
+      "desc": "Эрудит, который будет обучать Александра Великого и систематизировать западные знания.",
       "source": "https://en.wikipedia.org/wiki/Aristotle",
       "categories": [
         "figure",
@@ -724,8 +724,8 @@
     {
       "year": "336 BCE",
       "endYear": "323 BCE",
-      "title": "Alexander's Empire",
-      "desc": "Conquers from Greece to India in 13 years. Hellenistic culture spreads worldwide.",
+      "title": "Империя Александра",
+      "desc": "Покоряет от Греции до Индии за 13 лет. Эллинистическая культура распространилась по всему миру.",
       "source": "https://en.wikipedia.org/wiki/Alexander_the_Great",
       "categories": [
         "civilization",
@@ -737,8 +737,8 @@
     {
       "year": "c. 322 BCE",
       "endYear": "185 BCE",
-      "title": "Maurya Empire",
-      "desc": "First empire to unify most of the Indian subcontinent. Emperor Ashoka's conversion to Buddhism led to edicts promoting religious tolerance and non-violence.",
+      "title": "Империя Маурьев",
+      "desc": "Первая империя, объединившая большую часть Индийского субконтинента. Обращение императора Ашоки в буддизм привело к изданию указов, поощряющих религиозную терпимость и ненасилие.",
       "source": "https://en.wikipedia.org/wiki/Maurya_Empire",
       "categories": [
         "civilization",
@@ -749,8 +749,8 @@
     },
     {
       "year": "c. 280 BCE",
-      "title": "Library of Alexandria Founded",
-      "desc": "One of the largest and most significant libraries of the ancient world. Center of classical learning under the Ptolemaic dynasty of Egypt.",
+      "title": "Основание Александрийской библиотеки",
+      "desc": "Одна из крупнейших и значимых библиотек древнего мира. Центр классического образования при династии Птолемеев в Египте.",
       "source": "https://en.wikipedia.org/wiki/Library_of_Alexandria",
       "categories": [
         "culture",
@@ -762,8 +762,8 @@
     {
       "year": "c. 275 BCE",
       "endYear": "c. 195 BCE",
-      "title": "Eratosthenes",
-      "desc": "Greek polymath who calculated Earth's circumference with remarkable accuracy using shadows and geometry.",
+      "title": "Эратосфен",
+      "desc": "Греческий эрудит, который с удивительной точностью рассчитал окружность Земли, используя тени и геометрию.",
       "source": "https://en.wikipedia.org/wiki/Eratosthenes",
       "categories": [
         "figure",
@@ -773,8 +773,8 @@
     },
     {
       "year": "221 BCE",
-      "title": "Unification of China",
-      "desc": "Qin Shi Huang conquers the Warring States, creating the first unified Chinese empire and establishing the imperial system.",
+      "title": "Объединение Китая",
+      "desc": "Цинь Шихуан покоряет Воюющие государства, создавая первую объединенную китайскую империю и устанавливая имперскую систему.",
       "source": "https://en.wikipedia.org/wiki/Qin_dynasty",
       "categories": [
         "politics",
@@ -784,8 +784,8 @@
     },
     {
       "year": "c. 221 BCE",
-      "title": "Great Wall Construction Begins",
-      "desc": "Qin Shi Huang begins the Great Wall, connecting existing fortifications to protect against northern invasions.",
+      "title": "Начало строительства Великой китайской стены",
+      "desc": "Цинь Шихуан начинает Великую стену, соединяющую существующие укрепления для защиты от северных вторжений.",
       "source": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
       "categories": [
         "civilization",
@@ -796,8 +796,8 @@
     {
       "year": "206 BCE",
       "endYear": "220 CE",
-      "title": "Han Dynasty",
-      "desc": "One of China's greatest dynasties. Paper invented, Silk Road flourishes.",
+      "title": "Династия Хань",
+      "desc": "Одна из величайших династий Китая. Изобретена бумага, Шелковый путь процветает.",
       "source": "https://en.wikipedia.org/wiki/Han_dynasty",
       "categories": [
         "civilization",
@@ -808,8 +808,8 @@
     {
       "year": "c. 130 BCE",
       "endYear": "1453 CE",
-      "title": "Silk Road",
-      "desc": "Network of trade routes connecting East Asia to the Mediterranean. Silk, spices, ideas, religions, and technologies flow between civilizations for over 1,500 years.",
+      "title": "Шелковый путь",
+      "desc": "Сеть торговых путей, соединяющих Восточную Азию со Средиземноморьем. Шелк, специи, идеи, религии и технологии передаются между цивилизациями на протяжении более 1500 лет.",
       "source": "https://en.wikipedia.org/wiki/Silk_Road",
       "categories": [
         "economics",
@@ -821,8 +821,8 @@
     {
       "year": "c. 100 BCE",
       "endYear": "c. 550 CE",
-      "title": "Teotihuacan",
-      "desc": "One of the largest cities in the ancient world with 125,000 residents. Its massive pyramids and urban grid predated and influenced later Mesoamerican civilizations including the Aztecs.",
+      "title": "Теотиуакан",
+      "desc": "Один из крупнейших городов древнего мира с населением 125 000 человек. Его массивные пирамиды и городская сеть предшествовали и оказали влияние на более поздние мезоамериканские цивилизации, включая ацтеков.",
       "source": "https://en.wikipedia.org/wiki/Teotihuacan",
       "categories": [
         "civilization",
@@ -832,8 +832,8 @@
     },
     {
       "year": "153 BCE",
-      "title": "January 1 Becomes New Year's Day",
-      "desc": "Roman consuls begin taking office on January 1 to respond to a rebellion in Hispania, establishing the date as the start of the civil year.",
+      "title": "1 января станет Новым годом",
+      "desc": "Римские консулы вступают в должность 1 января, чтобы отреагировать на восстание в Испании, установив эту дату как начало гражданского года.",
       "source": "https://en.wikipedia.org/wiki/Roman_calendar",
       "categories": [
         "calendar",
@@ -845,8 +845,8 @@
     {
       "year": "73 BCE",
       "endYear": "71 BCE",
-      "title": "Spartacus Rebellion",
-      "desc": "Gladiator Spartacus leads history's most famous slave revolt against Rome.",
+      "title": "Спартаковское восстание",
+      "desc": "Гладиатор Спартак возглавляет самое известное в истории восстание рабов против Рима.",
       "source": "https://en.wikipedia.org/wiki/Spartacus",
       "categories": [
         "war",
@@ -857,8 +857,8 @@
     {
       "year": "c. 69 BCE",
       "endYear": "30 BCE",
-      "title": "Cleopatra",
-      "desc": "Last pharaoh of Egypt. Her death marks Egypt becoming a Roman province.",
+      "title": "Клеопатра",
+      "desc": "Последний фараон Египта. Ее смерть знаменует собой превращение Египта в римскую провинцию.",
       "source": "https://en.wikipedia.org/wiki/Cleopatra",
       "categories": [
         "figure",
@@ -868,8 +868,8 @@
     },
     {
       "year": "44 BCE",
-      "title": "Julius Caesar Assassinated",
-      "desc": "\"Et tu, Brute?\" Caesar murdered by senators on the Ides of March. Republic dies with him.",
+      "title": "Юлий Цезарь убит",
+      "desc": "— И ты, Брут? Цезарь убит сенаторами в мартовские иды. Республика умирает вместе с ним.",
       "source": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar",
       "categories": [
         "politics",
@@ -880,8 +880,8 @@
     {
       "year": "27 BCE",
       "endYear": "476 CE",
-      "title": "Roman Empire",
-      "desc": "From Augustus to the fall. At its peak, ruled 70 million people across three continents.",
+      "title": "Римская империя",
+      "desc": "От Августа до падения. На пике своего развития им правили 70 миллионов человек на трёх континентах.",
       "source": "https://en.wikipedia.org/wiki/Roman_Empire",
       "categories": [
         "civilization"
@@ -891,8 +891,8 @@
     {
       "year": "c. 6 BCE",
       "endYear": "c. 30 CE",
-      "title": "Jesus of Nazareth",
-      "desc": "Central figure of Christianity. His life and teachings became the foundation of the world's largest religion.",
+      "title": "Иисус из Назарета",
+      "desc": "Центральная фигура христианства. Его жизнь и учение стали основой крупнейшей в мире религии.",
       "source": "https://en.wikipedia.org/wiki/Jesus",
       "categories": [
         "religion",
@@ -902,8 +902,8 @@
     },
     {
       "year": "1 CE",
-      "title": "Year One (CE/AD)",
-      "desc": "The Gregorian calendar's anchor point. Calculated (with some error) as the birth year of Jesus.",
+      "title": "Первый год (CE/AD)",
+      "desc": "Точка привязки григорианского календаря. Рассчитано (с некоторой ошибкой) как год рождения Иисуса.",
       "source": "https://en.wikipedia.org/wiki/Anno_Domini",
       "categories": [
         "calendar",
@@ -914,8 +914,8 @@
     },
     {
       "year": "c. 30 CE",
-      "title": "Crucifixion of Jesus",
-      "desc": "Jesus crucified in Jerusalem under Pontius Pilate. Christians believe he rose three days later.",
+      "title": "Распятие Иисуса",
+      "desc": "Иисус распят в Иерусалиме при Понтии Пилате. Христиане верят, что он воскрес через три дня.",
       "source": "https://en.wikipedia.org/wiki/Crucifixion_of_Jesus",
       "categories": [
         "religion",
@@ -925,8 +925,8 @@
     },
     {
       "year": "79 CE",
-      "title": "Eruption of Vesuvius",
-      "desc": "Mount Vesuvius buries Pompeii and Herculaneum. Preserved forever in volcanic ash.",
+      "title": "Извержение Везувия",
+      "desc": "Гора Везувий погребает Помпеи и Геркуланум. Навечно сохранившийся в вулканическом пепле.",
       "source": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
       "categories": [
         "disaster",
@@ -937,8 +937,8 @@
     {
       "year": "c. 100 CE",
       "endYear": "c. 940 CE",
-      "title": "Kingdom of Aksum",
-      "desc": "Ethiopian empire and one of the four great powers of the ancient world. First major empire to adopt Christianity as state religion, predating Rome's conversion.",
+      "title": "Королевство Аксум",
+      "desc": "Эфиопская империя и одна из четырёх великих держав древнего мира. Первая крупная империя, принявшая христианство в качестве государственной религии еще до обращения Рима.",
       "source": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum",
       "categories": [
         "civilization",
@@ -949,8 +949,8 @@
     {
       "year": "c. 100 CE",
       "endYear": "c. 1500 CE",
-      "title": "Indian Ocean Trade Network",
-      "desc": "Maritime trade routes connecting East Africa, Arabia, India, Southeast Asia, and China. Spread goods, religions, and ideas across the hemisphere for over a millennium.",
+      "title": "Торговая сеть Индийского океана",
+      "desc": "Морские торговые пути, соединяющие Восточную Африку, Аравию, Индию, Юго-Восточную Азию и Китай. Распространяйте товары, религии и идеи по всему полушарию на протяжении более тысячелетия.",
       "source": "https://en.wikipedia.org/wiki/Indian_Ocean_trade",
       "categories": [
         "economics",
@@ -962,8 +962,8 @@
     {
       "year": "c. 250 CE",
       "endYear": "c. 900 CE",
-      "title": "Classic Maya Period",
-      "desc": "Golden age of Maya civilization. 40+ city-states including Tikal, Palenque, and Copán. Advanced astronomy, mathematics, and the Long Count calendar.",
+      "title": "Классический период майя",
+      "desc": "Золотой век цивилизации майя. Более 40 городов-государств, включая Тикаль, Паленке и Копан. Высшая астрономия, математика и календарь длинного счета.",
       "source": "https://en.wikipedia.org/wiki/Classic_Maya_civilization",
       "categories": [
         "civilization",
@@ -974,8 +974,8 @@
     },
     {
       "year": "313 CE",
-      "title": "Edict of Milan",
-      "desc": "Constantine legalizes Christianity throughout the Roman Empire. Faith goes mainstream.",
+      "title": "Миланский эдикт",
+      "desc": "Константин легализует христианство на территории Римской империи. Вера выходит из подполья и становится одной из центральных сил общественной жизни.",
       "source": "https://en.wikipedia.org/wiki/Edict_of_Milan",
       "categories": [
         "religion",
@@ -986,8 +986,8 @@
     {
       "year": "c. 320 CE",
       "endYear": "c. 550 CE",
-      "title": "Gupta Empire",
-      "desc": "India's Golden Age. The concept of zero, decimal system, and major advances in astronomy, medicine, mathematics, and Sanskrit literature flourish.",
+      "title": "Империя Гуптов",
+      "desc": "Золотой век Индии. Процветает концепция нуля, десятичная система и крупные достижения в астрономии, медицине, математике и санскритской литературе.",
       "source": "https://en.wikipedia.org/wiki/Gupta_Empire",
       "categories": [
         "civilization",
@@ -998,8 +998,8 @@
     },
     {
       "year": "476 CE",
-      "title": "Fall of Rome",
-      "desc": "Western Roman Empire collapses. Europe enters the Middle Ages.",
+      "title": "Падение Рима",
+      "desc": "Западная Римская империя распалась. Европа вступает в средневековье.",
       "source": "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire",
       "categories": [
         "civilization",
@@ -1010,8 +1010,8 @@
     {
       "year": "c. 500 CE",
       "endYear": "c. 1500 CE",
-      "title": "Middle Ages",
-      "desc": "Medieval Europe. Feudalism, castles, crusades, and the slow rebuilding of civilization.",
+      "title": "Средневековье",
+      "desc": "Средневековая Европа. Феодализм, замки, крестовые походы и медленное восстановление цивилизации.",
       "source": "https://en.wikipedia.org/wiki/Middle_Ages",
       "categories": [
         "civilization",
@@ -1023,8 +1023,8 @@
     },
     {
       "year": "c. 500 CE",
-      "title": "Invention of Zero",
-      "desc": "Indian mathematicians develop zero as both a placeholder and a number. This revolutionary concept enables modern mathematics, science, and eventually computing.",
+      "title": "Изобретение нуля",
+      "desc": "Индийские математики разработали ноль как заполнитель и как число. Эта революционная концепция делает возможным современную математику, естественные науки и, в конечном итоге, вычислительную технику.",
       "source": "https://en.wikipedia.org/wiki/0",
       "categories": [
         "science"
@@ -1034,8 +1034,8 @@
     {
       "year": "c. 1500 CE",
       "endYear": "present",
-      "title": "Modern Age",
-      "desc": "From the Renaissance to the present. Characterized by nation-states, global exploration, scientific revolution, industrialization, and rapid technological change. Some divide further into Early Modern, Industrial, Atomic, and Digital ages.",
+      "title": "Современный век",
+      "desc": "Период от эпохи Возрождения до наших дней. Его определяют национальные государства, глобальные путешествия и открытия, научная революция, индустриализация и стремительное технологическое развитие. Внутри него обычно выделяют раннее Новое время, индустриальную, атомную и цифровую эпохи.",
       "source": "https://en.wikipedia.org/wiki/Modern_history",
       "categories": [
         "civilization",
@@ -1048,8 +1048,8 @@
     {
       "year": "c. 1500 CE",
       "endYear": "c. 1900 CE",
-      "title": "Global Spread of Capitalism and Empire",
-      "desc": "European colonial empires and capitalist trade networks expand worldwide. Chartered companies (British and Dutch East India Companies) monopolize trade across Asia, Africa, and the Americas. By the 19th century, industrial capitalism establishes global economic domination, laying foundations for modern globalization.",
+      "title": "Глобальное распространение капитализма и империй",
+      "desc": "Европейские колониальные империи и капиталистические торговые сети расширяются по всему миру. Чартерные компании (Британские и голландские Ост-Индские компании) монополизируют торговлю в Азии, Африке и Америке. К 19 веку промышленный капитализм устанавливает глобальное экономическое господство, закладывая основы современной глобализации.",
       "source": "https://en.wikipedia.org/wiki/History_of_capitalism",
       "categories": [
         "economics",
@@ -1060,8 +1060,8 @@
     {
       "year": "541 CE",
       "endYear": "c. 750 CE",
-      "title": "Plague of Justinian",
-      "desc": "First bubonic plague pandemic. Kills up to 50 million—possibly half of Europe's population.",
+      "title": "Чума Юстиниана",
+      "desc": "Первая пандемия бубонной чумы. Убивает до 50 миллионов человек — возможно, половину населения Европы.",
       "source": "https://en.wikipedia.org/wiki/Plague_of_Justinian",
       "categories": [
         "disaster"
@@ -1071,8 +1071,8 @@
     {
       "year": "c. 570 CE",
       "endYear": "632 CE",
-      "title": "Muhammad",
-      "desc": "Prophet of Islam born in Mecca. Will unite Arabia and found the world's second-largest religion.",
+      "title": "Мухаммед",
+      "desc": "Пророк ислама, родившийся в Мекке. Объединит Аравию и создаст вторую по величине религию в мире.",
       "source": "https://en.wikipedia.org/wiki/Muhammad",
       "categories": [
         "religion",
@@ -1082,8 +1082,8 @@
     },
     {
       "year": "622 CE",
-      "title": "Hijra - Islamic Calendar Begins",
-      "desc": "Muhammad's migration from Mecca to Medina. Year One of the Islamic calendar.",
+      "title": "Хиджра – начало исламского календаря",
+      "desc": "Переселение Мухаммеда из Мекки в Медину. Первый год исламского календаря.",
       "source": "https://en.wikipedia.org/wiki/Hijra",
       "categories": [
         "calendar",
@@ -1094,8 +1094,8 @@
     {
       "year": "c. 750 CE",
       "endYear": "c. 1300 CE",
-      "title": "Islamic Golden Age",
-      "desc": "Era of cultural, scientific, and economic flourishing in the Islamic world. Preservation of Greek knowledge, advances in mathematics, astronomy, medicine, and philosophy.",
+      "title": "Золотой век ислама",
+      "desc": "Эпоха культурного, научного и экономического расцвета исламского мира. Сохранение греческих знаний, достижений в области математики, астрономии, медицины и философии.",
       "source": "https://en.wikipedia.org/wiki/Islamic_Golden_Age",
       "categories": [
         "civilization",
@@ -1107,8 +1107,8 @@
     {
       "year": "c. 793 CE",
       "endYear": "c. 1066 CE",
-      "title": "Viking Age",
-      "desc": "Scandinavian seafarers explore, trade, and raid across Europe, reaching Iceland, Greenland, and North America centuries before Columbus.",
+      "title": "Эпоха викингов",
+      "desc": "Скандинавские мореплаватели исследуют, торгуют и совершают набеги по Европе, достигнув Исландии, Гренландии и Северной Америки за столетия до Колумба.",
       "source": "https://en.wikipedia.org/wiki/Viking_Age",
       "categories": [
         "civilization",
@@ -1118,8 +1118,8 @@
     },
     {
       "year": "800 CE",
-      "title": "Charlemagne Crowned Emperor",
-      "desc": "Pope crowns Charlemagne Emperor of the Romans. Holy Roman Empire begins.",
+      "title": "Карл Великий коронован императором",
+      "desc": "Папа коронует Карла Великого императором римлян. Начало Священной Римской Империи.",
       "source": "https://en.wikipedia.org/wiki/Charlemagne",
       "categories": [
         "politics",
@@ -1131,8 +1131,8 @@
     {
       "year": "c. 802 CE",
       "endYear": "1431 CE",
-      "title": "Khmer Empire",
-      "desc": "Southeast Asia's dominant empire, centered in modern Cambodia. Built Angkor Wat, the largest religious monument ever constructed, and an advanced hydraulic civilization.",
+      "title": "Кхмерская империя",
+      "desc": "Доминирующая империя Юго-Восточной Азии с центром в современной Камбодже. Построен Ангкор-Ват, крупнейший когда-либо построенный религиозный памятник, и развитая гидравлическая цивилизация.",
       "source": "https://en.wikipedia.org/wiki/Khmer_Empire",
       "categories": [
         "civilization",
@@ -1143,8 +1143,8 @@
     },
     {
       "year": "c. 900 CE",
-      "title": "Classic Maya Collapse",
-      "desc": "Major city-states abandoned over decades. Drought, warfare, and deforestation devastate the southern lowlands. Civilization shifts north to Yucatán.",
+      "title": "Классический коллапс Maya",
+      "desc": "Крупные города-государства были заброшены на протяжении десятилетий. Засуха, войны и вырубка лесов опустошают южные низменности. Цивилизация перемещается на север, на Юкатан.",
       "source": "https://en.wikipedia.org/wiki/Classic_Maya_collapse",
       "categories": [
         "civilization",
@@ -1155,8 +1155,8 @@
     {
       "year": "c. 900 CE",
       "endYear": "c. 1300 CE",
-      "title": "Medieval Warm Period",
-      "desc": "Climate similar to modern times. Vikings colonize Greenland, agriculture expands northward, and European population booms.",
+      "title": "Средневековый теплый период",
+      "desc": "Климат похож на современный. Викинги колонизируют Гренландию, сельское хозяйство расширяется на север, а население Европы стремительно растет.",
       "source": "https://en.wikipedia.org/wiki/Medieval_Warm_Period",
       "categories": [
         "geological"
@@ -1165,8 +1165,8 @@
     },
     {
       "year": "1066 CE",
-      "title": "Norman Conquest of England",
-      "desc": "William the Conqueror defeats Harold at Hastings. English history forever changed.",
+      "title": "Нормандское завоевание Англии",
+      "desc": "Вильгельм Завоеватель побеждает Гарольда при Гастингсе. Английская история навсегда изменилась.",
       "source": "https://en.wikipedia.org/wiki/Norman_Conquest",
       "categories": [
         "war",
@@ -1177,8 +1177,8 @@
     {
       "year": "c. 1050 CE",
       "endYear": "c. 1350 CE",
-      "title": "Cahokia",
-      "desc": "The largest pre-Columbian city north of Mexico, near modern St. Louis. At its peak around 11100 HE, housed 10,000-20,000 people—rivaling contemporary London. Monks Mound, a 100-foot earthen pyramid, required moving 22 million cubic feet of earth without wheels or draft animals.",
+      "title": "Кахокия",
+      "desc": "Крупнейший доколумбовый город к северу от Мексики, недалеко от современного Сент-Луиса. На пике своего развития около 11100 HE в нем проживало 10 000–20 000 человек, что могло конкурировать с современным Лондоном. Монкс-Маунд, 100-футовая земляная пирамида, потребовала перемещения 22 миллионов кубических футов земли без колес и тягловой силы.",
       "source": "https://en.wikipedia.org/wiki/Cahokia",
       "categories": [
         "civilization",
@@ -1189,8 +1189,8 @@
     {
       "year": "1096 CE",
       "endYear": "1099 CE",
-      "title": "First Crusade",
-      "desc": "Christian armies capture Jerusalem. Two centuries of religious warfare begin.",
+      "title": "Первый крестовый поход",
+      "desc": "Христианские войска захватывают Иерусалим. Начинаются два столетия религиозной войны.",
       "source": "https://en.wikipedia.org/wiki/First_Crusade",
       "categories": [
         "war",
@@ -1201,8 +1201,8 @@
     {
       "year": "c. 1100 CE",
       "endYear": "c. 1450 CE",
-      "title": "Great Zimbabwe",
-      "desc": "Massive stone city in southern Africa and center of a wealthy trading empire. Connected the African interior to Indian Ocean trade networks, exporting gold and ivory.",
+      "title": "Великий Зимбабве",
+      "desc": "Огромный каменный город на юге Африки и центр богатой торговой империи. Соединил внутренние районы Африки с торговыми сетями Индийского океана, экспортируя золото и слоновую кость.",
       "source": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
       "categories": [
         "civilization",
@@ -1213,8 +1213,8 @@
     {
       "year": "c. 1162 CE",
       "endYear": "1227 CE",
-      "title": "Genghis Khan",
-      "desc": "Temüjin born on the Mongolian steppe. Will build the largest contiguous empire in history.",
+      "title": "Чингисхан",
+      "desc": "Темучин родился в монгольской степи. Построит самую большую непрерывную империю в истории.",
       "source": "https://en.wikipedia.org/wiki/Genghis_Khan",
       "categories": [
         "figure"
@@ -1224,8 +1224,8 @@
     {
       "year": "1206 CE",
       "endYear": "1368 CE",
-      "title": "Mongol Empire",
-      "desc": "Largest contiguous land empire ever. From Korea to Poland under one rule.",
+      "title": "Монгольская империя",
+      "desc": "Крупнейшая континентальная империя за всю историю. От Кореи до Польши под одним правилом.",
       "source": "https://en.wikipedia.org/wiki/Mongol_Empire",
       "categories": [
         "civilization",
@@ -1235,8 +1235,8 @@
     },
     {
       "year": "1215 CE",
-      "title": "Magna Carta",
-      "desc": "English nobles force King John to sign—foundation of constitutional law.",
+      "title": "Великая хартия вольностей",
+      "desc": "Английская знать заставляет короля Джона подписать это основание конституционного права.",
       "source": "https://en.wikipedia.org/wiki/Magna_Carta",
       "categories": [
         "politics"
@@ -1246,8 +1246,8 @@
     {
       "year": "1265 CE",
       "endYear": "1321 CE",
-      "title": "Dante Alighieri",
-      "desc": "Author of the Divine Comedy. Father of the Italian language.",
+      "title": "Данте Алигьери",
+      "desc": "Автор Божественной комедии. Отец итальянского языка.",
       "source": "https://en.wikipedia.org/wiki/Dante_Alighieri",
       "categories": [
         "figure",
@@ -1258,8 +1258,8 @@
     {
       "year": "c. 1300 CE",
       "endYear": "c. 1600 CE",
-      "title": "Renaissance",
-      "desc": "Rebirth of art, science, and humanism. Da Vinci, Michelangelo, and the printing press.",
+      "title": "Ренессанс",
+      "desc": "Возрождение искусства, науки и гуманизма. Да Винчи, Микеланджело и печатный станок.",
       "source": "https://en.wikipedia.org/wiki/Renaissance",
       "categories": [
         "civilization",
@@ -1271,8 +1271,8 @@
     {
       "year": "c. 1300 CE",
       "endYear": "c. 1850 CE",
-      "title": "Little Ice Age",
-      "desc": "Coldest period of the past two millennia. Rivers freeze, crops fail, glaciers advance. Ends with the Industrial Revolution.",
+      "title": "Маленький ледниковый период",
+      "desc": "Самый холодный период последних двух тысячелетий. Реки замерзают, урожай гибнет, ледники наступают. Завершается промышленной революцией.",
       "source": "https://en.wikipedia.org/wiki/Little_Ice_Age",
       "categories": [
         "geological"
@@ -1281,8 +1281,8 @@
     },
     {
       "year": "1324 CE",
-      "title": "Mansa Musa's Pilgrimage",
-      "desc": "The Emperor of Mali makes his pilgrimage to Mecca, showcasing the immense wealth of West Africa to the world.",
+      "title": "Паломничество Мансы Мусы",
+      "desc": "Император Мали совершает паломничество в Мекку, демонстрируя миру огромные богатства Западной Африки.",
       "source": "https://en.wikipedia.org/wiki/Mansa_Musa",
       "categories": [
         "civilization",
@@ -1294,8 +1294,8 @@
     {
       "year": "1347 CE",
       "endYear": "1353 CE",
-      "title": "Black Death",
-      "desc": "Bubonic plague kills 75-200 million people across Eurasia—up to 60% of Europe's population. Society transformed.",
+      "title": "Черная смерть",
+      "desc": "Бубонная чума убивает 75–200 миллионов человек по всей Евразии — до 60% населения Европы. Общество преобразилось.",
       "source": "https://en.wikipedia.org/wiki/Black_Death",
       "categories": [
         "disaster"
@@ -1304,8 +1304,8 @@
     },
     {
       "year": "c. 1440 CE",
-      "title": "Gutenberg's Press",
-      "desc": "Movable type printing spreads knowledge faster than ever before.",
+      "title": "Пресса Гутенберга",
+      "desc": "Печать подвижными шрифтами распространяет знания быстрее, чем когда-либо прежде.",
       "source": "https://en.wikipedia.org/wiki/Printing_press",
       "categories": [
         "science",
@@ -1316,8 +1316,8 @@
     {
       "year": "1452 CE",
       "endYear": "1519 CE",
-      "title": "Leonardo da Vinci",
-      "desc": "The ultimate Renaissance man. Painter, inventor, scientist, and visionary.",
+      "title": "Леонардо да Винчи",
+      "desc": "Настоящий человек эпохи Возрождения. Художник, изобретатель, учёный и провидец.",
       "source": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
       "categories": [
         "figure",
@@ -1328,8 +1328,8 @@
     },
     {
       "year": "1453 CE",
-      "title": "Fall of Constantinople",
-      "desc": "Ottoman Turks conquer the Byzantine capital. End of the Roman Empire after 1,500 years.",
+      "title": "Падение Константинополя",
+      "desc": "Турки-османы захватывают столицу Византии. Конец Римской империи через 1500 лет.",
       "source": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
       "categories": [
         "war",
@@ -1340,8 +1340,8 @@
     {
       "year": "c. 1428 CE",
       "endYear": "1521 CE",
-      "title": "Aztec Empire",
-      "desc": "Dominant alliance in central Mexico. Built Tenochtitlan, one of the world's largest cities, before falling to Spanish conquistadors.",
+      "title": "Ацтекская империя",
+      "desc": "Доминирующий альянс в центральной Мексике. Построил Теночтитлан, один из крупнейших городов мира, прежде чем он пал под властью испанских конкистадоров.",
       "source": "https://en.wikipedia.org/wiki/Aztec_Empire",
       "categories": [
         "civilization",
@@ -1352,8 +1352,8 @@
     {
       "year": "c. 1438 CE",
       "endYear": "1533 CE",
-      "title": "Inca Empire",
-      "desc": "The largest empire in pre-Columbian America, engineering a vast road network and monuments like Machu Picchu in the Andes.",
+      "title": "Империя инков",
+      "desc": "Крупнейшая империя в доколумбовой Америке, создавшая обширную сеть дорог и памятники, такие как Мачу-Пикчу в Андах.",
       "source": "https://en.wikipedia.org/wiki/Inca_Empire",
       "categories": [
         "civilization"
@@ -1362,8 +1362,8 @@
     },
     {
       "year": "1492 CE",
-      "title": "Columbus Reaches Americas",
-      "desc": "European contact with the \"New World.\" Global exchange—and exploitation—begins.",
+      "title": "Колумб достигает Америки",
+      "desc": "Контакт Европы с «Новым Светом». Начинается глобальный обмен и эксплуатация.",
       "source": "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus",
       "categories": [
         "exploration",
@@ -1374,8 +1374,8 @@
     {
       "year": "1492 CE",
       "endYear": "c. 1700 CE",
-      "title": "Columbian Exchange",
-      "desc": "Massive exchange of plants, animals, people, and pathogens between the Americas and Afro-Eurasia. Old World diseases devastated indigenous populations (up to 90% mortality). New World crops (maize, potatoes, tomatoes) spread globally, transforming agriculture, diets, and demographics worldwide.",
+      "title": "Колумбийская биржа",
+      "desc": "Массовый обмен растениями, животными, людьми и патогенами между Америкой и Афро-Евразией. Болезни Старого Света опустошили коренное население (смертность до 90%). Культуры Нового Света (кукуруза, картофель, помидоры) распространились по всему миру, изменив сельское хозяйство, рацион питания и демографию во всем мире.",
       "source": "https://en.wikipedia.org/wiki/Columbian_exchange",
       "categories": [
         "economics",
@@ -1385,8 +1385,8 @@
     },
     {
       "year": "1517 CE",
-      "title": "Protestant Reformation",
-      "desc": "Martin Luther posts 95 Theses. Christianity splits, religious wars follow.",
+      "title": "Протестантская Реформация",
+      "desc": "Мартин Лютер опубликовал 95 тезисов. Христианство раскололось, последовали религиозные войны.",
       "source": "https://en.wikipedia.org/wiki/Reformation",
       "categories": [
         "religion",
@@ -1397,8 +1397,8 @@
     {
       "year": "c. 1526 CE",
       "endYear": "1867 CE",
-      "title": "Transatlantic Slave Trade",
-      "desc": "Forced migration of 12.5 million Africans to the Americas. Fundamental driver of the modern Atlantic economy, shaping demographics, culture, and politics across four continents. One of history's greatest crimes against humanity.",
+      "title": "Трансатлантическая работорговля",
+      "desc": "Вынужденная миграция 12,5 миллионов африканцев в Америку. Фундаментальная движущая сила современной атлантической экономики, формирующая демографию, культуру и политику на четырех континентах. Одно из величайших преступлений в истории против человечества.",
       "source": "https://en.wikipedia.org/wiki/Atlantic_slave_trade",
       "categories": [
         "economics",
@@ -1409,8 +1409,8 @@
     },
     {
       "year": "1543 CE",
-      "title": "Copernican Revolution",
-      "desc": "Copernicus publishes heliocentric theory. Earth is not the center of the universe.",
+      "title": "Коперниканская революция",
+      "desc": "Коперник опубликовал гелиоцентрическую теорию. Земля не является центром Вселенной.",
       "source": "https://en.wikipedia.org/wiki/Copernican_Revolution",
       "categories": [
         "science"
@@ -1420,8 +1420,8 @@
     {
       "year": "1564 CE",
       "endYear": "1616 CE",
-      "title": "William Shakespeare",
-      "desc": "The Bard of Avon. Wrote the most influential works in English literature.",
+      "title": "Уильям Шекспир",
+      "desc": "Бард Эйвона. Написал самые влиятельные произведения в английской литературе.",
       "source": "https://en.wikipedia.org/wiki/William_Shakespeare",
       "categories": [
         "figure",
@@ -1432,8 +1432,8 @@
     {
       "year": "1564 CE",
       "endYear": "1642 CE",
-      "title": "Galileo Galilei",
-      "desc": "Father of modern science. Confirmed Copernicus and faced the Inquisition.",
+      "title": "Галилео Галилей",
+      "desc": "Отец современной науки. Подтвердил Коперник и столкнулся с инквизицией.",
       "source": "https://en.wikipedia.org/wiki/Galileo_Galilei",
       "categories": [
         "figure",
@@ -1443,8 +1443,8 @@
     },
     {
       "year": "1620 CE",
-      "title": "Mayflower Landing",
-      "desc": "Pilgrims land at Plymouth Rock. English colonization of North America begins in earnest.",
+      "title": "Прибытие «Мэйфлауэра»",
+      "desc": "Паломники высаживаются у Плимут-Рока. С этого момента английская колонизация Северной Америки вступает в новую фазу.",
       "source": "https://en.wikipedia.org/wiki/Mayflower",
       "categories": [
         "exploration",
@@ -1454,8 +1454,8 @@
     },
     {
       "year": "1687 CE",
-      "title": "Newton's Principia",
-      "desc": "Isaac Newton publishes laws of motion and gravity. Modern physics is born.",
+      "title": "Принципы Ньютона",
+      "desc": "Исаак Ньютон опубликовал законы движения и гравитации. Рождается современная физика.",
       "source": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
       "categories": [
         "science",
@@ -1466,8 +1466,8 @@
     {
       "year": "c. 1760 CE",
       "endYear": "c. 1840 CE",
-      "title": "Industrial Revolution",
-      "desc": "Steam, factories, railways. More change in 100 years than the previous 10,000.",
+      "title": "Промышленная революция",
+      "desc": "Пар, заводы, железные дороги. За 100 лет изменений больше, чем за предыдущие 10 000.",
       "source": "https://en.wikipedia.org/wiki/Industrial_Revolution",
       "categories": [
         "civilization",
@@ -1479,8 +1479,8 @@
     {
       "year": "1775 CE",
       "endYear": "1783 CE",
-      "title": "American Revolutionary War",
-      "desc": "Thirteen colonies fight for independence from Britain. Birth of the United States.",
+      "title": "Американская война за независимость",
+      "desc": "Тринадцать колоний борются за независимость от Великобритании. Рождение Соединенных Штатов.",
       "source": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
       "categories": [
         "war",
@@ -1490,8 +1490,8 @@
     },
     {
       "year": "1776 CE",
-      "title": "American Independence",
-      "desc": "Declaration signed. Democratic self-governance becomes reality.",
+      "title": "Американская независимость",
+      "desc": "Декларация подписана. Демократическое самоуправление становится реальностью.",
       "source": "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence",
       "categories": [
         "politics"
@@ -1500,8 +1500,8 @@
     },
     {
       "year": "1789 CE",
-      "title": "French Revolution",
-      "desc": "Monarchy overthrown. Liberty, equality, fraternity reshape political thought.",
+      "title": "Французская революция",
+      "desc": "Монархия свергнута. Свобода, равенство, братство меняют политическую мысль.",
       "source": "https://en.wikipedia.org/wiki/French_Revolution",
       "categories": [
         "politics",
@@ -1512,8 +1512,8 @@
     {
       "year": "1791 CE",
       "endYear": "1804 CE",
-      "title": "Haitian Revolution",
-      "desc": "The only successful slave revolt leading to an independent nation. Enslaved people overthrow French colonial rule, establishing Haiti as the first free Black republic.",
+      "title": "Гаитянская революция",
+      "desc": "Единственное успешное восстание рабов, приведшее к созданию независимой нации. Порабощенные люди свергают французское колониальное правление, делая Гаити первой свободной черной республикой.",
       "source": "https://en.wikipedia.org/wiki/Haitian_Revolution",
       "categories": [
         "war",
@@ -1523,8 +1523,8 @@
     },
     {
       "year": "1796 CE",
-      "title": "First Vaccine",
-      "desc": "Edward Jenner creates the smallpox vaccine. The beginning of immunology and the eventual eradication of smallpox.",
+      "title": "Первая вакцина",
+      "desc": "Эдвард Дженнер создает вакцину от оспы. Начало иммунологии и окончательная ликвидация оспы.",
       "source": "https://en.wikipedia.org/wiki/Smallpox_vaccine",
       "categories": [
         "science"
@@ -1534,8 +1534,8 @@
     {
       "year": "1809 CE",
       "endYear": "1882 CE",
-      "title": "Charles Darwin",
-      "desc": "Naturalist who revolutionized biology with theory of evolution by natural selection.",
+      "title": "Чарльз Дарвин",
+      "desc": "Натуралист, совершивший революцию в биологии, создав теорию эволюции путем естественного отбора.",
       "source": "https://en.wikipedia.org/wiki/Charles_Darwin",
       "categories": [
         "figure",
@@ -1545,8 +1545,8 @@
     },
     {
       "year": "1815 CE",
-      "title": "Mount Tambora Eruption",
-      "desc": "Largest volcanic eruption in recorded history. Causes 'Year Without a Summer' in 1816—global crop failures and famine.",
+      "title": "Извержение горы Тамбора",
+      "desc": "Крупнейшее извержение вулкана в истории человечества. Причины «Года без лета» в 1816 году — глобальный неурожай и голод.",
       "source": "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora",
       "categories": [
         "geological",
@@ -1556,8 +1556,8 @@
     },
     {
       "year": "1833 CE",
-      "title": "Slavery Abolition Act",
-      "desc": "Britain abolishes slavery throughout most of its empire, a major milestone in the global movement for human rights.",
+      "title": "Закон об отмене рабства",
+      "desc": "Великобритания отменяет рабство на большей части территории своей империи, что является важной вехой в глобальном движении за права человека.",
       "source": "https://en.wikipedia.org/wiki/Slavery_Abolition_Act_1833",
       "categories": [
         "politics",
@@ -1568,8 +1568,8 @@
     {
       "year": "1837 CE",
       "endYear": "1901 CE",
-      "title": "Victorian Era",
-      "desc": "British Empire at its height. Rapid industrialization, social reform, and global expansion.",
+      "title": "Викторианская эпоха",
+      "desc": "Британская империя в расцвете сил. Быстрая индустриализация, социальные реформы и глобальная экспансия.",
       "source": "https://en.wikipedia.org/wiki/Victorian_era",
       "categories": [
         "civilization",
@@ -1579,8 +1579,8 @@
     },
     {
       "year": "1859 CE",
-      "title": "Origin of Species Published",
-      "desc": "Darwin publishes theory of evolution. Biology—and humanity's self-image—transformed.",
+      "title": "Происхождение видов опубликовано",
+      "desc": "Дарвин публикует теорию эволюции. Биология – и самооценка человечества – трансформировались.",
       "source": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species",
       "categories": [
         "science"
@@ -1590,8 +1590,8 @@
     {
       "year": "1861 CE",
       "endYear": "1865 CE",
-      "title": "American Civil War",
-      "desc": "Union vs. Confederacy. 620,000 dead. Slavery abolished, nation preserved.",
+      "title": "Гражданская война в США",
+      "desc": "Союз против Конфедерации. 620 000 погибших. Рабство отменено, нация сохранена.",
       "source": "https://en.wikipedia.org/wiki/American_Civil_War",
       "categories": [
         "war",
@@ -1601,8 +1601,8 @@
     },
     {
       "year": "1865 CE",
-      "title": "Lincoln Assassinated",
-      "desc": "President Lincoln shot at Ford's Theatre, five days after the Civil War ends.",
+      "title": "Линкольн убит",
+      "desc": "Президент Линкольн был смертельно ранен в театре Форда всего через пять дней после окончания Гражданской войны.",
       "source": "https://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln",
       "categories": [
         "figure",
@@ -1612,8 +1612,8 @@
     },
     {
       "year": "1868 CE",
-      "title": "Meiji Restoration",
-      "desc": "Japan transforms from feudal isolation to industrial world power in a single generation. The samurai class is abolished, and state-sponsored modernization adopts Western technology, law, and education while maintaining Japanese identity.",
+      "title": "Реставрация Мэйдзи",
+      "desc": "Япония превращается из феодальной изоляции в индустриальную мировую державу за одно поколение. Класс самураев упразднен, а модернизация, спонсируемая государством, перенимает западные технологии, право и образование, сохраняя при этом японскую идентичность.",
       "source": "https://en.wikipedia.org/wiki/Meiji_Restoration",
       "categories": [
         "politics",
@@ -1623,8 +1623,8 @@
     },
     {
       "year": "1879 CE",
-      "title": "Electric Light",
-      "desc": "Thomas Edison demonstrates a practical incandescent light bulb. Electrification begins to transform night into day.",
+      "title": "Электрический свет",
+      "desc": "Томас Эдисон демонстрирует практичную лампочку накаливания. Электрификация начинает превращать ночь в день.",
       "source": "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
       "categories": [
         "science",
@@ -1635,8 +1635,8 @@
     {
       "year": "1879 CE",
       "endYear": "1955 CE",
-      "title": "Albert Einstein",
-      "desc": "Physicist who redefined space, time, and reality with relativity and E=mc².",
+      "title": "Альберт Эйнштейн",
+      "desc": "Физик, перевернувший представления о пространстве, времени и самой природе реальности благодаря теории относительности и формуле E=mc².",
       "source": "https://en.wikipedia.org/wiki/Albert_Einstein",
       "categories": [
         "figure",
@@ -1646,8 +1646,8 @@
     },
     {
       "year": "1883 CE",
-      "title": "Krakatoa Eruption",
-      "desc": "Catastrophic eruption heard 3,000 miles away. Triggers tsunamis killing 36,000. Global temperatures drop for years.",
+      "title": "Извержение Кракатау",
+      "desc": "Катастрофическое извержение было слышно на расстоянии 3000 миль. Вызывает цунами, убивающее 36 000 человек. Глобальная температура падает на протяжении многих лет.",
       "source": "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa",
       "categories": [
         "geological",
@@ -1657,8 +1657,8 @@
     },
     {
       "year": "1893 CE",
-      "title": "Women's Suffrage (New Zealand)",
-      "desc": "New Zealand becomes the first self-governing nation to grant women the right to vote. Led by Kate Sheppard, the victory included Māori women and catalyzed a global wave of suffrage movements.",
+      "title": "Избирательное право женщин (Новая Зеландия)",
+      "desc": "Новая Зеландия стала первой самоуправляющейся страной, предоставившей женщинам право голоса. Победа движения, связанного с именем Кейт Шеппард, затронула и женщин-маори и стала важным импульсом для мировой борьбы за избирательные права.",
       "source": "https://en.wikipedia.org/wiki/Women%27s_suffrage_in_New_Zealand",
       "categories": [
         "politics"
@@ -1667,8 +1667,8 @@
     },
     {
       "year": "1903 CE",
-      "title": "Wright Brothers First Flight",
-      "desc": "Orville and Wilbur Wright achieve the first powered, sustained, and controlled airplane flight at Kitty Hawk.",
+      "title": "Первый полет братьев Райт",
+      "desc": "Орвилл и Уилбур Райт совершают первый в Китти-Хоке полет мощного, устойчивого и управляемого самолета.",
       "source": "https://en.wikipedia.org/wiki/Wright_brothers",
       "categories": [
         "science",
@@ -1678,8 +1678,8 @@
     },
     {
       "year": "1905 CE",
-      "title": "Einstein's Miracle Year",
-      "desc": "Einstein publishes special relativity and E=mc². Physics will never be the same.",
+      "title": "Год чудес Эйнштейна",
+      "desc": "Эйнштейн публикует специальную теорию относительности и E=mc². Физика никогда не будет прежней.",
       "source": "https://en.wikipedia.org/wiki/Annus_Mirabilis_papers",
       "categories": [
         "science"
@@ -1688,8 +1688,8 @@
     },
     {
       "year": "1912 CE",
-      "title": "Titanic Sinks",
-      "desc": "\"Unsinkable\" ocean liner hits iceberg on maiden voyage. 1,500 dead. End of an era.",
+      "title": "Титаник тонет",
+      "desc": "«Непотопляемый» океанский лайнер во время своего первого рейса столкнулся с айсбергом. 1500 погибших. Конец эпохи.",
       "source": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
       "categories": [
         "disaster"
@@ -1699,8 +1699,8 @@
     {
       "year": "1914 CE",
       "endYear": "1918 CE",
-      "title": "World War I",
-      "desc": "The Great War. 20 million dead. Empires fall, modern warfare emerges.",
+      "title": "Первая мировая война",
+      "desc": "Великая война. 20 миллионов погибших. Империи рушатся, возникают современные войны.",
       "source": "https://en.wikipedia.org/wiki/World_War_I",
       "categories": [
         "war"
@@ -1710,8 +1710,8 @@
     {
       "year": "1918 CE",
       "endYear": "1920 CE",
-      "title": "Spanish Flu Pandemic",
-      "desc": "Deadliest pandemic in modern history. 50-100 million dead worldwide.",
+      "title": "Пандемия испанского гриппа",
+      "desc": "Самая смертоносная пандемия в современной истории. 50-100 миллионов погибших во всем мире.",
       "source": "https://en.wikipedia.org/wiki/Spanish_flu",
       "categories": [
         "disaster"
@@ -1720,8 +1720,8 @@
     },
     {
       "year": "1920 CE",
-      "title": "Women's Suffrage (United States)",
-      "desc": "The 19th Amendment grants American women the right to vote after a 70-year struggle beginning at Seneca Falls (11848 HE). The movement's success was complicated by racial tensions and the marginalization of Black women.",
+      "title": "Избирательное право женщин (США)",
+      "desc": "19-я поправка закрепила за американскими женщинами право голоса после 70-летней борьбы, начавшейся в Сенека-Фолс в 11848 HE. Успех движения был омрачен расовыми противоречиями и вытеснением чернокожих женщин на периферию общественной повестки.",
       "source": "https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution",
       "categories": [
         "politics"
@@ -1730,8 +1730,8 @@
     },
     {
       "year": "1928 CE",
-      "title": "Penicillin Discovered",
-      "desc": "Alexander Fleming notices mould killing bacteria, but the discovery remains a lab curiosity until Florey and Chain purify it in 1940. Mass production during WWII marks the dawn of the antibiotic age, ending the era when a scratch could be fatal.",
+      "title": "Открыт пенициллин",
+      "desc": "Александр Флеминг заметил бактерии, убивающие плесень, но это открытие оставалось лабораторным любопытством до тех пор, пока Флори и Чейн не очистили его в 1940 году. Массовое производство во время Второй мировой войны ознаменовало начало эры антибиотиков, положив конец эпохе, когда царапина могла быть фатальной.",
       "source": "https://en.wikipedia.org/wiki/Penicillin",
       "categories": [
         "science"
@@ -1740,8 +1740,8 @@
     },
     {
       "year": "1929 CE",
-      "title": "Black Tuesday",
-      "desc": "Stock market crashes. Great Depression begins, reshaping global economics.",
+      "title": "Черный вторник",
+      "desc": "Крах фондового рынка. Начинается Великая депрессия, меняющая мировую экономику.",
       "source": "https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929",
       "categories": [
         "economics",
@@ -1752,8 +1752,8 @@
     {
       "year": "1939 CE",
       "endYear": "1945 CE",
-      "title": "World War II",
-      "desc": "History's deadliest conflict. 70-85 million dead. The world reshaped.",
+      "title": "Вторая мировая война",
+      "desc": "Самый смертоносный конфликт в истории. 70-85 миллионов погибших. Мир изменился.",
       "source": "https://en.wikipedia.org/wiki/World_War_II",
       "categories": [
         "war"
@@ -1763,8 +1763,8 @@
     {
       "year": "1933 CE",
       "endYear": "1945 CE",
-      "title": "The Holocaust",
-      "desc": "Nazi persecution begins with concentration camps in 11933 HE, escalates through Kristallnacht (11938 HE), and culminates in the systematic genocide of the Final Solution (11941-11945 HE). Six million Jews and millions of others murdered.",
+      "title": "Холокост",
+      "desc": "Нацистские преследования начались с системы концлагерей в 11933 HE, резко усилились после Хрустальной ночи в 11938 HE и завершились систематическим геноцидом в рамках «окончательного решения» в 11941-11945 HE. Были убиты шесть миллионов евреев и миллионы других людей.",
       "source": "https://en.wikipedia.org/wiki/The_Holocaust",
       "categories": [
         "disaster",
@@ -1774,8 +1774,8 @@
     },
     {
       "year": "1945 CE",
-      "title": "Nuclear Age & United Nations",
-      "desc": "WWII ends. Atomic weapons unveiled. UN founded to prevent future wars.",
+      "title": "Ядерный век и Организация Объединенных Наций",
+      "desc": "Вторая мировая война заканчивается. Открыто атомное оружие. ООН создана для предотвращения будущих войн.",
       "source": "https://en.wikipedia.org/wiki/Atomic_Age",
       "categories": [
         "science",
@@ -1786,8 +1786,8 @@
     },
     {
       "year": "1947 CE",
-      "title": "Transistor Invented",
-      "desc": "Bell Labs creates the transistor—a semiconductor switch replacing vacuum tubes. The MOSFET (11959 HE) becomes the most manufactured object in human history, enabling all digital computing, the internet, smartphones, and AI.",
+      "title": "Изобретение транзистора",
+      "desc": "В Bell Labs создают транзистор — полупроводниковый переключатель, пришедший на смену электронным лампам. Позднее МОП-транзистор, появившийся в 11959 HE, стал самым массово производимым устройством в истории и сделал возможными цифровые вычисления, интернет, смартфоны и искусственный интеллект.",
       "source": "https://en.wikipedia.org/wiki/Transistor",
       "categories": [
         "science"
@@ -1797,8 +1797,8 @@
     {
       "year": "1947 CE",
       "endYear": "1991 CE",
-      "title": "Cold War",
-      "desc": "US vs USSR rivalry begins with the Truman Doctrine. Nuclear standoff, space race, proxy wars across the globe.",
+      "title": "Холодная война",
+      "desc": "Соперничество США и СССР начинается с доктрины Трумэна. Ядерное противостояние, космическая гонка, прокси-войны по всему миру.",
       "source": "https://en.wikipedia.org/wiki/Cold_War",
       "categories": [
         "war",
@@ -1809,8 +1809,8 @@
     {
       "year": "1950 CE",
       "endYear": "1953 CE",
-      "title": "Korean War",
-      "desc": "North Korea invades South. UN forces intervene. Armistice signed but war never officially ended.",
+      "title": "Корейская война",
+      "desc": "Северная Корея вторгается в Южную. Силы ООН вмешиваются. Подписано перемирие, но война так и не закончилась официально.",
       "source": "https://en.wikipedia.org/wiki/Korean_War",
       "categories": [
         "war"
@@ -1819,8 +1819,8 @@
     },
     {
       "year": "1953 CE",
-      "title": "DNA Structure Discovered",
-      "desc": "Watson and Crick publish the double helix structure of DNA, built on Rosalind Franklin's crucial X-ray crystallography. This 'Rosetta Stone of life' leads to genetic engineering, the Human Genome Project, and modern biotechnology.",
+      "title": "Обнаружена структура ДНК",
+      "desc": "Уотсон и Крик опубликовали структуру двойной спирали ДНК, основанную на решающей рентгеновской кристаллографии Розалинды Франклин. Этот «Розеттский камень жизни» ведет к генной инженерии, проекту «Геном человека» и современной биотехнологии.",
       "source": "https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids:_A_Structure_for_Deoxyribose_Nucleic_Acid",
       "categories": [
         "science"
@@ -1830,8 +1830,8 @@
     {
       "year": "1955 CE",
       "endYear": "1975 CE",
-      "title": "Vietnam War",
-      "desc": "From U.S. advisory involvement (11955 HE) through major combat operations (11965-11973 HE) to the fall of Saigon. 58,000 Americans and 2 million Vietnamese dead. First televised war.",
+      "title": "Вьетнамская война",
+      "desc": "От первых американских военных советников в 11955 HE через масштабные боевые действия 11965-11973 HE до падения Сайгона. Война унесла жизни 58 000 американцев и около 2 миллионов вьетнамцев и стала первой войной, которую мир наблюдал по телевидению.",
       "source": "https://en.wikipedia.org/wiki/Vietnam_War",
       "categories": [
         "war"
@@ -1840,8 +1840,8 @@
     },
     {
       "year": "1963 CE",
-      "title": "JFK Assassinated",
-      "desc": "President Kennedy shot in Dallas. End of Camelot, birth of conspiracy theories.",
+      "title": "Джон Кеннеди убит",
+      "desc": "Президент Кеннеди застрелен в Далласе. Конец Камелота, рождение теорий заговора.",
       "source": "https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy",
       "categories": [
         "figure",
@@ -1851,8 +1851,8 @@
     },
     {
       "year": "1969 CE",
-      "title": "Moon Landing",
-      "desc": "Humans walk on another world. \"One giant leap for mankind.\"",
+      "title": "Посадка на Луну",
+      "desc": "Люди впервые ступили на поверхность другого мира. «Один гигантский скачок для человечества».",
       "source": "https://en.wikipedia.org/wiki/Apollo_11",
       "categories": [
         "exploration",
@@ -1862,8 +1862,8 @@
     },
     {
       "year": "1989 CE",
-      "title": "Fall of the Berlin Wall",
-      "desc": "East and West Germany reunite. Beginning of the end of the Cold War.",
+      "title": "Падение Берлинской стены",
+      "desc": "Восточная и Западная Германия воссоединяются. Начало конца Холодной войны.",
       "source": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall",
       "categories": [
         "politics"
@@ -1873,8 +1873,8 @@
     {
       "year": "1990 CE",
       "endYear": "1991 CE",
-      "title": "Gulf War",
-      "desc": "Coalition forces liberate Kuwait from Iraqi invasion. 'Operation Desert Storm' showcases modern warfare.",
+      "title": "Война в Персидском заливе",
+      "desc": "Коалиционные силы освобождают Кувейт от иракского вторжения. Операция «Буря в пустыне» демонстрирует современную войну.",
       "source": "https://en.wikipedia.org/wiki/Gulf_War",
       "categories": [
         "war"
@@ -1883,8 +1883,8 @@
     },
     {
       "year": "1991 CE",
-      "title": "World Wide Web Goes Public",
-      "desc": "Tim Berners-Lee's invention (11989 HE) becomes publicly available outside CERN. Information becomes instantly global.",
+      "title": "Всемирная паутина становится общедоступной",
+      "desc": "Разработка Тима Бернерса-Ли, созданная в 11989 HE, выходит за пределы ЦЕРН и становится доступна широкой публике. Информация начинает распространяться почти мгновенно и в действительно глобальном масштабе.",
       "source": "https://en.wikipedia.org/wiki/World_Wide_Web",
       "categories": [
         "science"
@@ -1893,8 +1893,8 @@
     },
     {
       "year": "2001 CE",
-      "title": "September 11 Attacks",
-      "desc": "Terrorist attacks kill nearly 3,000 in New York, Washington, and Pennsylvania. World changed forever.",
+      "title": "Теракты 11 сентября",
+      "desc": "В результате террористических атак погибло около 3000 человек в Нью-Йорке, Вашингтоне и Пенсильвании. Мир изменился навсегда.",
       "source": "https://en.wikipedia.org/wiki/September_11_attacks",
       "categories": [
         "disaster",
@@ -1905,8 +1905,8 @@
     {
       "year": "2001 CE",
       "endYear": "2021 CE",
-      "title": "War in Afghanistan",
-      "desc": "America's longest war. Response to 9/11. Taliban overthrown then returns after US withdrawal.",
+      "title": "Война в Афганистане",
+      "desc": "Самая долгая война в истории США. Она началась как ответ на теракты 11 сентября: талибы были свергнуты, но после вывода американских войск вновь вернулись к власти.",
       "source": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)",
       "categories": [
         "war"
@@ -1916,8 +1916,8 @@
     {
       "year": "2003 CE",
       "endYear": "2011 CE",
-      "title": "Iraq War",
-      "desc": "US-led invasion topples Saddam Hussein. Controversial 'weapons of mass destruction' justification.",
+      "title": "Иракская война",
+      "desc": "Вторжение под руководством США свергло Саддама Хусейна. Спорное оправдание «оружия массового поражения».",
       "source": "https://en.wikipedia.org/wiki/Iraq_War",
       "categories": [
         "war"
@@ -1927,8 +1927,8 @@
     {
       "year": "2020 CE",
       "endYear": "2023 CE",
-      "title": "COVID-19 Pandemic",
-      "desc": "Global pandemic kills millions, transforms society. Lockdowns, vaccines, and remote work.",
+      "title": "Пандемия COVID-19",
+      "desc": "Глобальная пандемия унесла миллионы жизней и заметно изменила общество. Локдауны, массовая вакцинация и удаленная работа стали приметами новой эпохи.",
       "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic",
       "categories": [
         "disaster"
@@ -1937,8 +1937,8 @@
     },
     {
       "year": "2022 CE",
-      "title": "AI Goes Mainstream",
-      "desc": "Large language models enter public use. ChatGPT launches, shifting the nature of knowledge work.",
+      "title": "ИИ выходит в массовое использование",
+      "desc": "Большие языковые модели становятся доступны широкой публике. Запуск ChatGPT меняет представление о том, как люди работают с информацией и текстом.",
       "source": "https://en.wikipedia.org/wiki/ChatGPT",
       "categories": [
         "science"
@@ -1947,8 +1947,8 @@
     },
     {
       "year": "2022 CE",
-      "title": "Russia Invades Ukraine",
-      "desc": "Largest European war since WWII. Russia's full-scale invasion reshapes global politics and alliances.",
+      "title": "Россия вторгается в Украину",
+      "desc": "Крупнейшая европейская война со времен Второй мировой войны. Полномасштабное вторжение России меняет глобальную политику и альянсы.",
       "source": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine",
       "categories": [
         "war",
@@ -1958,8 +1958,8 @@
     },
     {
       "year": "c. 1950 CE",
-      "title": "Anthropocene (proposed)",
-      "desc": "A proposed geological epoch marking the 'Great Acceleration'—the explosive, synchronous uptick in human activity and Earth system changes starting around 11950 HE. The proposed 'Golden Spike' is the global spread of radionuclides from thermonuclear testing (11952 HE). Not formally accepted by the IUGS as of 12024 HE, but the concept frames our current era as one where humanity has become a geological force.",
+      "title": "Антропоцен (предлагаемая эпоха)",
+      "desc": "Предлагаемая геологическая эпоха, связанная с «великим ускорением» — резким и синхронным ростом человеческой активности и изменений в системе Земли, начавшимся примерно в 11950 HE. В качестве возможного «золотого шипа» рассматривается глобальное распространение радионуклидов после термоядерных испытаний в 11952 HE. По состоянию на 12024 HE Международным союзом геологических наук эта эпоха официально не принята, но сама концепция описывает современность как время, когда человечество стало геологической силой.",
       "source": "https://quaternary.stratigraphy.org/working-groups/anthropocene",
       "categories": [
         "geological",
@@ -1970,8 +1970,8 @@
     },
     {
       "year": "1993 CE",
-      "title": "Holocene Calendar Proposed",
-      "desc": "Cesare Emiliani proposes the Holocene calendar (Human Era), adding 10,000 years to CE so Year 1 HE ≈ 10,000 BCE. This places year one near the start of the Holocene epoch and widespread agriculture. Conversion: HE = CE + 10,000.",
+      "title": "Предложение голоценового календаря",
+      "desc": "Чезаре Эмилиани предложил голоценовый календарь, или человеческую эру, в которой к привычному летоисчислению прибавляются 10 000 лет. Так 1 год CE соответствует 10 001 HE. Это переносит начало отсчета ближе к началу голоцена и эпохе распространения земледелия. Формула пересчета проста: HE = CE + 10 000.",
       "source": "https://en.wikipedia.org/wiki/Holocene_calendar",
       "categories": [
         "calendar",

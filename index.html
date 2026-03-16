@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Human Era Timeline | 12,000 Years to Scale</title>
+    <title>Хронология человеческой эры | 12 000 лет в масштабе</title>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -22,16 +22,16 @@
             <div class="top-bar-content">
                 <div class="year-display">
                     <div class="year-ce">
-                        <input type="text" class="year-input" id="currentYearCE" value="0" title="Type a year and press Enter to jump">
+                        <input type="text" class="year-input" id="currentYearCE" value="0" title="Введите год и нажмите Enter, чтобы перейти">
                         <span class="year-label" id="yearCELabel">CE</span>
                     </div>
                     <div class="year-divider"></div>
                     <div class="year-he">
-                        <input type="text" class="year-input" id="currentYear" value="0" title="Type a year and press Enter to jump">
-                        <span class="year-label">Holocene Era</span>
+                        <input type="text" class="year-input" id="currentYear" value="0" title="Введите год и нажмите Enter, чтобы перейти">
+                        <span class="year-label">Голоценовая эра</span>
                     </div>
                 </div>
-                <button class="menu-btn" id="menuBtn" title="Toggle settings">☰</button>
+                <button class="menu-btn" id="menuBtn" title="Открыть настройки">☰</button>
             </div>
         </div>
         
@@ -40,18 +40,18 @@
             <main class="main-content">
                     
                 <header>
-                    <p class="era-label">The Holocene Calendar</p>
-                    <h1>12,000 Years of <span>Human Era</span></h1>
-                    <p class="subtitle">Scroll through civilization — to scale</p>
+                    <p class="era-label">Голоценовый календарь</p>
+                    <h1>12 000 лет <span>человеческой эры</span></h1>
+                    <p class="subtitle">Прокрутите историю цивилизации в реальном масштабе</p>
                     
                     <div class="scale-note">
-                        <p>The Holocene Calendar adds <strong>10,000 years</strong> to the common era, placing all of human civilization on one continuous timeline.</p>
-                        <p style="margin-top: 12px;">Year 1 CE becomes <strong>10,001 HE</strong>. Today is year <strong id="currentYearDisplay">12,026</strong> HE.</p>
+                        <p>Голоценовый календарь прибавляет <strong>10 000 лет</strong> к привычному летоисчислению, чтобы вся история человеческой цивилизации помещалась на одной непрерывной временной шкале.</p>
+                        <p style="margin-top: 12px;">1 год н. э. становится <strong>10 001 HE</strong>. Сегодня идет <strong id="currentYearDisplay">12 026</strong> год HE.</p>
                         
-                        <p class="infobox-section">This timeline is <strong>proportionally accurate</strong>.<br>
-                        Scroll distance = time elapsed.<br>
-                        <strong id="scaleDisplay">100 years = 400 pixels</strong></p>
-                        <p class="infobox-section">Tip: You can adjust the time scale from the menu.</p>
+                        <p class="infobox-section">Эта шкала <strong>пропорционально точна</strong>.<br>
+                        Длина прокрутки = прошедшее время.<br>
+                        <strong id="scaleDisplay">100 лет = 400 пикселей</strong></p>
+                        <p class="infobox-section">Подсказка: масштаб времени можно изменить в меню.</p>
                     </div>
                 </header>
 
@@ -68,11 +68,11 @@
                 <div class="sidebar-content">
                     
                     <div class="sidebar-section">
-                        <label for="scaleSlider">Scale</label>
+                        <label for="scaleSlider">Масштаб</label>
                         <input type="range" id="scaleSlider" min="0.5" max="20" step="0.5" value="5">
                         <div class="scale-input-row">
                             <input type="text" class="scale-input" id="scaleInput" value="5">
-                            <span class="scale-unit">px/yr</span>
+                            <span class="scale-unit">px/год</span>
                         </div>
                     </div>
 
@@ -80,34 +80,34 @@
                         <label class="toggle-label">
                             <input type="checkbox" id="showLabelsToggle" checked>
                             <span class="toggle-switch"></span>
-                            <span class="toggle-text">Event Labels</span>
+                            <span class="toggle-text">Подписи событий</span>
                         </label>
                         
                         <label class="toggle-label">
                             <input type="checkbox" id="showRangesToggle" checked>
                             <span class="toggle-switch"></span>
-                            <span class="toggle-text">Event Ranges</span>
+                            <span class="toggle-text">Диапазоны событий</span>
                         </label>
                         
                         <label class="toggle-label">
                             <input type="checkbox" id="showAgesToggle" checked>
                             <span class="toggle-switch"></span>
-                            <span class="toggle-text">Technological Ages Ranges</span>
+                            <span class="toggle-text">Диапазоны технологических эпох</span>
                         </label>
 
                         <label class="toggle-label">
                             <input type="checkbox" id="spreadRangesToggle" checked>
                             <span class="toggle-switch"></span>
-                            <span class="toggle-text">Spread Ranges</span>
+                            <span class="toggle-text">Разносить диапазоны</span>
                         </label>
                     </div>
                     
                     <div class="sidebar-section">
                         <div class="sidebar-section-header">
-                            <span>Categories</span>
+                            <span>Категории</span>
                             <div class="filter-actions">
-                                <button class="filter-action" id="filterAll">All</button>
-                                <button class="filter-action" id="filterNone">None</button>
+                                <button class="filter-action" id="filterAll">Все</button>
+                                <button class="filter-action" id="filterNone">Ничего</button>
                             </div>
                         </div>
                         <div class="filter-options" id="filterOptions">
@@ -122,13 +122,13 @@
         </div>
 
         <footer>
-            <p><a href="https://en.wikipedia.org/wiki/Holocene_calendar" style="color: var(--bone-dim); text-decoration: none;">The Holocene Calendar</a> — Proposed by Cesare Emiliani, 11993 HE · Visualized by Michael Z Rork, 12026 HE</p>
+            <p><a href="https://en.wikipedia.org/wiki/Holocene_calendar" style="color: var(--bone-dim); text-decoration: none;">Голоценовый календарь</a> — предложен Чезаре Эмилиани в 11993 HE · визуализация Майкла З. Рорка, 12026 HE</p>
             <!-- <p>Disclaimer: The events on this calendar have been sourced and verified by three different AI chatbots and may be inaccurate. Reference the linked sources for up to date and accurate information.</p> -->
         </footer>
 
         <div class="nav-buttons">
-            <button class="nav-btn" id="jumpToTop" title="Jump to beginning">⤒</button>
-            <button class="nav-btn" id="jumpToBottom" title="Jump to today">⤓</button>
+            <button class="nav-btn" id="jumpToTop" title="Перейти к началу">⤒</button>
+            <button class="nav-btn" id="jumpToBottom" title="Перейти к сегодняшнему дню">⤓</button>
         </div>
     </div>
 
